@@ -2,7 +2,17 @@
 
 Aplicación local para revisar y sustituir datos identificativos en texto en español mediante Presidio. El navegador muestra la interfaz y el motor escucha en `127.0.0.1`. No requiere cuenta. Límite provisional: 10.000 caracteres. Toda salida requiere revisión humana: puede contener omisiones y falsos positivos.
 
-**Estado: código publicado en [GitHub](https://github.com/guillemarcos14/Anonimizar).** Esta copia contiene la aplicación Windows. El complemento experimental de ChatGPT y la web pública quedan fuera. La licencia de las aportaciones propias, los permisos de algunos recursos visuales y la distribución del instalador siguen pendientes; ver [PREPARACION.md](PREPARACION.md).
+**Estado: código publicado en [GitHub](https://github.com/guillemarcos14/Anonimizar).** Esta copia contiene la aplicación Windows. El complemento experimental de ChatGPT y la web pública quedan fuera. La licencia de las aportaciones propias, los permisos de algunos recursos visuales siguen pendientes; ver [PREPARACION.md](PREPARACION.md).
+
+## Instalar en Windows
+
+**[Descargar Anonimizar 0.3.0 para Windows x64](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** · [SHA-256](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256) · [Notas de la versión](https://github.com/guillemarcos14/Anonimizar/releases/tag/v0.3.0)
+
+1. Descarga y ejecuta el instalador en Windows x64. Requiere .NET Framework 4.6.2 o posterior.
+2. Confirma la instalación para tu usuario. Incluye Python, motor y modelo; no necesitas instalarlos por separado.
+3. Abre **Anonimizar** desde el escritorio o Inicio, pega texto y revisa siempre el resultado antes de compartirlo.
+
+Es una **versión preliminar**, probada con datos ficticios en un equipo Windows. El instalador no tiene firma de editor; Windows puede mostrar una advertencia. Las pruebas en otro equipo y los diálogos e integración habitual de Windows siguen pendientes. Consulta las notas de la versión para el hash y el alcance de las comprobaciones.
 
 ## Instalar para desarrollar
 
@@ -20,7 +30,7 @@ La descarga necesita Internet y verifica los hashes de las 82 dependencias y de 
 
 Consultar [INSTALACION.md](INSTALACION.md) para requisitos, hashes, uso sin red, diagnóstico y diferencia entre el bloqueo público y el histórico. Los paquetes en `wheelhouse/`, el entorno `.venv` y las evidencias locales quedan fuera de Git.
 
-Para detener el motor, usar **Configuración → Cerrar Anonimizar y detener el motor**. Cerrar solo la pestaña deja el motor activo. El instalador para usuarios finales no se incluye ni tiene todavía una descarga publicada desde este repositorio.
+Para detener el motor, usar **Configuración → Cerrar Anonimizar y detener el motor**. Cerrar solo la pestaña deja el motor activo. El instalador se distribuye por separado en la release enlazada arriba y no se guarda en el historial Git.
 
 ## Uso, datos y límites
 

@@ -47,4 +47,8 @@ Las evidencias se conservan en `verificacion-local/desinstalador/ejecucion-*`. L
 
 ## Publicación del código — 15/11/2026
 
-Guillem ha elegido expresamente un repositorio público y visible en su perfil. Se publica el código revisado, conservando avisos y condiciones. Las referencias anteriores a no publicar describen las fases previas de preparación. Esta autorización no elige una licencia global ni resuelve automáticamente permisos de recursos visuales. Los datos, credenciales, entornos, evidencias locales e instaladores permanecen fuera del repositorio Git. El instalador probado sigue disponible localmente; no se ha creado una release de descarga.
+Guillem ha elegido expresamente un repositorio público y visible en su perfil. Se publica el código revisado, conservando avisos y condiciones. Las referencias anteriores a no publicar describen las fases previas de preparación. Esta autorización no elige una licencia global ni resuelve automáticamente permisos de recursos visuales. Los datos, credenciales, entornos, evidencias locales e instaladores permanecen fuera del repositorio Git. El instalador probado se distribuye por separado en la release preliminar v0.3.0, con su SHA-256; no se incorpora al historial Git.
+
+## Release Windows 0.3.0 — 15/11/2026
+
+Por autorización expresa de Guillem se publica el instalador ya probado, sin reconstruir ni alterar el ejecutable, junto con su SHA-256, en [v0.3.0](https://github.com/guillemarcos14/Anonimizar/releases/tag/v0.3.0). El README ofrece descarga directa e instrucciones para usuarios finales. La release se marca preliminar y conserva los límites de validación, la ausencia de firma de editor y los pendientes de permisos/licencia documentados. El original permanece intacto.
