@@ -1,88 +1,94 @@
+**English** | [Español](README.es.md)
+
 <div align="center">
 
 # Anonimizar
 
-**Revisa tus textos antes de compartirlos.**
+**Review your text before sharing it.**
 
-Una aplicación para Windows que ayuda a detectar y sustituir datos identificativos en texto en español. Pega, revisa y copia el resultado, con el motor ejecutándose en tu ordenador.
+A Windows app that helps detect and replace identifying information in **Spanish-language text**. Paste, review and copy the result, with the engine running on your computer.
 
-**[Descargar para Windows x64 →](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)**
+**The app interface and supported text workflow are in Spanish.** This English README introduces the project to an international audience.
 
-Versión preliminar **0.3.0** · Incluye motor y modelo · Sin cuenta en la aplicación
+**[Download for Windows x64 →](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)**
 
-[Notas de la versión](https://github.com/guillemarcos14/Anonimizar/releases/tag/v0.3.0) · [Comprobar SHA-256](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256)
+Pre-release **0.3.0** · Engine and model included · No app account required
+
+[Release notes](https://github.com/guillemarcos14/Anonimizar/releases/tag/v0.3.0) · [Check SHA-256](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256)
 
 </div>
 
-![Pantalla de inicio de Anonimizar antes de introducir texto, con el campo vacío y sin documentos guardados.](docs/images/anonimizar-home.jpg)
+![The Spanish-language Anonimizar home screen before entering text, with an empty input and no saved documents.](docs/images/anonimizar-home.jpg)
 
-*Pantalla de inicio, antes de introducir texto.*
+*The actual home screen, before entering any text. The screenshots retain the Spanish interface.*
 
-![Anonimizar mostrando un texto ficticio y su resultado: correo y teléfono sustituidos, con el importe y las instrucciones conservados.](docs/images/anonimizar-revision.jpg)
+![Anonimizar displaying fictional input and its result: email and phone replaced while the amount and instructions are preserved.](docs/images/anonimizar-revision.jpg)
 
-*Captura real con datos ficticios. En este ejemplo se sustituyen el correo y el teléfono; el importe y las instrucciones se conservan. Toda salida necesita revisión humana.*
+*Real screenshot with fictional data. In this example, the email address and phone number are replaced; the amount and instructions are preserved. Every output requires human review.*
 
-## Qué puedes hacer
+## What you can do
 
-- **Preparar una copia del texto:** detectar y sustituir identificadores como correos y teléfonos mediante Presidio.
-- **Revisar antes de compartir:** consultar el original y el resultado, comprobar las sustituciones y copiar o descargar la salida.
-- **Retomar documentos:** recuperar original y revisión desde el historial local, exportar copias y gestionar la papelera.
-- **Ajustar la detección:** elegir el modo de anonimización, la sensibilidad y las palabras que conservar u ocultar.
+- **Prepare a copy of your text:** detect and replace identifiers such as email addresses and phone numbers using Presidio.
+- **Review before sharing:** consult the original and the result, check substitutions, and copy or download the output.
+- **Return to saved documents:** recover the original and its review from local history, export backups and manage the trash.
+- **Adjust detection:** choose the anonymization mode, sensitivity, and words to keep or hide.
 
-![Configuración real de Anonimizar: modelo instalado localmente, modo Sustituir, sensibilidad de detección y palabras que conservar u ocultar.](docs/images/anonimizar-configuracion.jpg)
+![Actual Anonimizar settings in Spanish: locally installed model, replacement mode, detection sensitivity and words to keep or hide.](docs/images/anonimizar-configuracion.jpg)
 
-*Los controles permiten adaptar el procesamiento; su disponibilidad no garantiza que todos los tipos de datos se detecten correctamente.*
+*The controls let you adjust processing; their availability does not guarantee correct detection of every data type.*
 
-## Instalar y empezar
+## Install and get started
 
-**Requisitos:** Windows x64 y .NET Framework 4.6.2 o posterior. El instalador incluye Python, las dependencias y el modelo; no tienes que instalarlos por separado ni usar una terminal.
+**Requirements:** Windows x64 and .NET Framework 4.6.2 or later. The installer includes Python, dependencies and the model; you do not need to install them separately or use a terminal.
 
-1. **[Descarga el instalador de Windows](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** y ejecútalo. Confirma la instalación para tu usuario.
-2. **Abre Anonimizar** desde el escritorio o Inicio. La interfaz se abre en el navegador y el motor se ejecuta en el ordenador.
-3. **Pega tu texto, envíalo y revisa el resultado.** Comprueba omisiones y sustituciones incorrectas antes de copiarlo o compartirlo. Límite provisional: **10.000 caracteres**.
+1. **[Download the Windows installer](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** and run it. Confirm installation for your Windows user.
+2. **Open Anonimizar** from the desktop or Start menu. The interface opens in your browser and the engine runs on your computer.
+3. **Paste Spanish text, submit it and review the result.** Check for omissions and incorrect substitutions before copying or sharing it. Provisional limit: **10,000 characters**.
 
-El instalador **no tiene firma de editor**; Windows puede mostrar una advertencia. Puedes comparar su hash con el [archivo SHA-256 de la release](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256). El hash comprueba integridad, no sustituye una firma.
+The installer **is not signed with a publisher certificate**; Windows may display a warning. You can compare its hash with the [release SHA-256 file](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256). A checksum verifies integrity; it does not replace a publisher signature.
 
-Para detener el motor, utiliza **Configuración → Cerrar Anonimizar y detener el motor**. Cerrar solo la pestaña lo deja activo.
+To stop the engine, use **Configuración → Cerrar Anonimizar y detener el motor** in the Spanish interface. Closing the browser tab alone leaves it running.
 
-## Privacidad y límites
+## Privacy and limitations
 
-- **Procesamiento local:** el motor funciona en tu ordenador. No se promete ausencia universal de conexiones externas; consulta [uso y privacidad](LOCAL.md).
-- **Historial activado por defecto:** conserva original, ajustes y revisión en `%LOCALAPPDATA%\Anonimizar`. Puedes desactivarlo en Configuración; eso no elimina documentos anteriores. No hay cifrado local propio.
-- **Revisión humana obligatoria:** puede haber omisiones, falsos positivos y detalles indirectos que identifiquen a alguien. No se garantiza anonimización completa o irreversible.
-- **Versión preliminar:** comprobada con datos ficticios en un equipo Windows, incluidos instalación aislada, modelo e historial, desinstalación y reinstalación. La integración habitual de Windows, sus diálogos y otro equipo siguen pendientes.
+- **Local processing:** the engine runs on your computer. This is not a universal guarantee of no external connections; see [usage and privacy (Spanish)](LOCAL.md).
+- **History is enabled by default:** it stores the original, settings and review in `%LOCALAPPDATA%\Anonimizar`. You can disable it in Settings; doing so does not delete existing documents. There is no application-provided encryption of local history.
+- **Human review is required:** omissions, false positives and indirect identifying details may remain. Complete or irreversible anonymization is not guaranteed.
+- **Pre-release:** checked with fictional data on one Windows computer, including isolated installation, the model, history, uninstallation and reinstallation. Standard Windows integration, native dialogs and another computer still need validation.
 
-El código es público. La licencia global de las aportaciones propias y algunos permisos de recursos visuales siguen pendientes; se conservan las atribuciones y condiciones existentes. Consulta [LICENCIAS.md](LICENCIAS.md), [CONDICIONES-ENTREGA.md](CONDICIONES-ENTREGA.md) y el [estado de validación](PREPARACION.md).
+The code is public. A project-wide license for the project's own contributions and permissions for some visual resources are still unresolved; existing attributions and conditions remain in place. See [licenses and attributions (Spanish)](LICENCIAS.md), [conditions (Spanish)](CONDICIONES-ENTREGA.md) and [validation status (Spanish)](PREPARACION.md).
 
-## Desarrollo y documentación
+## Development and documentation
 
 <details>
-<summary><strong>Ejecutar desde el código y construir el instalador</strong></summary>
+<summary><strong>Run from source and build the installer</strong></summary>
 
-Se requiere **CPython 3.13.7 x64**. Desde PowerShell, en la carpeta del repositorio:
+**CPython 3.13.7 x64** is required. From PowerShell in the repository directory:
 
-```powershell
-.\descargar-dependencias.ps1 -Python 'C:\ruta\Python313\python.exe'
-.\instalar.ps1 -Python 'C:\ruta\Python313\python.exe'
+~~~powershell
+.\descargar-dependencias.ps1 -Python 'C:\path\Python313\python.exe'
+.\instalar.ps1 -Python 'C:\path\Python313\python.exe'
 .\iniciar.ps1
-```
+~~~
 
-La descarga obtiene las dependencias fijadas y el modelo desde fuentes públicas y comprueba sus hashes. La instalación posterior usa el kit local y crea `.venv`; no sobrescribe un entorno existente.
+The download fetches pinned dependencies and the model from public sources and verifies their hashes. Installation then uses the local kit and creates `.venv`; it does not overwrite an existing environment.
 
-Para construir, con ese entorno instalado y el compilador .NET Framework de Windows:
+To build, with that environment installed and the Windows .NET Framework compiler available:
 
-```powershell
+~~~powershell
 .\.venv\Scripts\python.exe -B packaging\build_local.py
-```
+~~~
 
-Los paquetes de `wheelhouse/`, el entorno, las evidencias y los ejecutables generados quedan fuera de Git. El instalador se distribuye mediante GitHub Releases.
+The `wheelhouse/` packages, environment, local evidence and generated executables are excluded from Git. The installer is distributed through GitHub Releases.
 
 </details>
 
-| Guía | Para qué sirve |
+The detailed technical guides below are currently in Spanish.
+
+| Guide | Contents |
 |---|---|
-| [Uso de la aplicación](LOCAL.md) | Historial, privacidad, recuperación y cierre |
-| [Instalación desde el código](INSTALACION.md) | Dependencias públicas, hashes e instalación offline |
-| [Construcción y pruebas del instalador](INSTALADOR.md) | Empaquetado y ciclo de instalación/desinstalación aislado |
-| [Estado y pendientes](PREPARACION.md) | Qué está comprobado y qué falta validar |
-| [Atribuciones e historial](avisos/historico-producto/README.md) | Antecedentes conservados; los textos de terceros están en `avisos/` |
+| [Using the app](LOCAL.md) | History, privacy, recovery and shutdown |
+| [Installing from source](INSTALACION.md) | Public dependencies, hashes and offline installation |
+| [Installer build and tests](INSTALADOR.md) | Packaging and the isolated installation/uninstallation cycle |
+| [Status and remaining work](PREPARACION.md) | What has been checked and what still needs validation |
+| [Attributions and history](avisos/historico-producto/README.md) | Preserved background; third-party notices are in `avisos/` |
