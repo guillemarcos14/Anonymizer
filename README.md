@@ -1,24 +1,61 @@
-# Anonimizar 0.3.0 para Windows
+<div align="center">
 
-Aplicación local para revisar y sustituir datos identificativos en texto en español mediante Presidio. El navegador muestra la interfaz y el motor escucha en `127.0.0.1`. No requiere cuenta. Límite provisional: 10.000 caracteres. Toda salida requiere revisión humana: puede contener omisiones y falsos positivos.
+# Anonimizar
 
-**Estado: código publicado en [GitHub](https://github.com/guillemarcos14/Anonimizar).** Esta copia contiene la aplicación Windows. El complemento experimental de ChatGPT y la web pública quedan fuera. La licencia de las aportaciones propias, los permisos de algunos recursos visuales siguen pendientes; ver [PREPARACION.md](PREPARACION.md).
+**Revisa tus textos antes de compartirlos.**
 
-## Instalar en Windows
+Una aplicación para Windows que ayuda a detectar y sustituir datos identificativos en texto en español. Pega, revisa y copia el resultado, con el motor ejecutándose en tu ordenador.
 
-**[Descargar Anonimizar 0.3.0 para Windows x64](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** · [SHA-256](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256) · [Notas de la versión](https://github.com/guillemarcos14/Anonimizar/releases/tag/v0.3.0)
+**[Descargar para Windows x64 →](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)**
 
-1. Descarga y ejecuta el instalador en Windows x64. Requiere .NET Framework 4.6.2 o posterior.
-2. Confirma la instalación para tu usuario. Incluye Python, motor y modelo; no necesitas instalarlos por separado.
-3. Abre **Anonimizar** desde el escritorio o Inicio, pega texto y revisa siempre el resultado antes de compartirlo.
+Versión preliminar **0.3.0** · Incluye motor y modelo · Sin cuenta en la aplicación
 
-Es una **versión preliminar**, probada con datos ficticios en un equipo Windows. El instalador no tiene firma de editor; Windows puede mostrar una advertencia. Las pruebas en otro equipo y los diálogos e integración habitual de Windows siguen pendientes. Consulta las notas de la versión para el hash y el alcance de las comprobaciones.
+[Notas de la versión](https://github.com/guillemarcos14/Anonimizar/releases/tag/v0.3.0) · [Comprobar SHA-256](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256)
 
-## Instalar para desarrollar
+</div>
 
-Se requiere Windows x64 y [CPython 3.13.7 x64](https://www.python.org/downloads/release/python-3137/). Los scripts obtienen el conjunto fijado y el modelo desde PyPI y la publicación oficial de Explosion, sin usar el proyecto original ni la carpeta auxiliar.
+![Anonimizar mostrando un texto ficticio y su resultado: correo y teléfono sustituidos, con el importe y las instrucciones conservados.](docs/images/anonimizar-revision.jpg)
 
-En PowerShell, desde esta carpeta:
+*Captura real con datos ficticios. En este ejemplo se sustituyen el correo y el teléfono; el importe y las instrucciones se conservan. Toda salida necesita revisión humana.*
+
+## Qué puedes hacer
+
+- **Preparar una copia del texto:** detectar y sustituir identificadores como correos y teléfonos mediante Presidio.
+- **Revisar antes de compartir:** consultar el original y el resultado, comprobar las sustituciones y copiar o descargar la salida.
+- **Retomar documentos:** recuperar original y revisión desde el historial local, exportar copias y gestionar la papelera.
+- **Ajustar la detección:** elegir el modo de anonimización, la sensibilidad y las palabras que conservar u ocultar.
+
+![Configuración real de Anonimizar: modelo instalado localmente, modo Sustituir, sensibilidad de detección y palabras que conservar u ocultar.](docs/images/anonimizar-configuracion.jpg)
+
+*Los controles permiten adaptar el procesamiento; su disponibilidad no garantiza que todos los tipos de datos se detecten correctamente.*
+
+## Instalar y empezar
+
+**Requisitos:** Windows x64 y .NET Framework 4.6.2 o posterior. El instalador incluye Python, las dependencias y el modelo; no tienes que instalarlos por separado ni usar una terminal.
+
+1. **[Descarga el instalador de Windows](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** y ejecútalo. Confirma la instalación para tu usuario.
+2. **Abre Anonimizar** desde el escritorio o Inicio. La interfaz se abre en el navegador y el motor se ejecuta en el ordenador.
+3. **Pega tu texto, envíalo y revisa el resultado.** Comprueba omisiones y sustituciones incorrectas antes de copiarlo o compartirlo. Límite provisional: **10.000 caracteres**.
+
+El instalador **no tiene firma de editor**; Windows puede mostrar una advertencia. Puedes comparar su hash con el [archivo SHA-256 de la release](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256). El hash comprueba integridad, no sustituye una firma.
+
+Para detener el motor, utiliza **Configuración → Cerrar Anonimizar y detener el motor**. Cerrar solo la pestaña lo deja activo.
+
+## Privacidad y límites
+
+- **Procesamiento local:** el motor funciona en tu ordenador. No se promete ausencia universal de conexiones externas; consulta [uso y privacidad](LOCAL.md).
+- **Historial activado por defecto:** conserva original, ajustes y revisión en `%LOCALAPPDATA%\Anonimizar`. Puedes desactivarlo en Configuración; eso no elimina documentos anteriores. No hay cifrado local propio.
+- **Revisión humana obligatoria:** puede haber omisiones, falsos positivos y detalles indirectos que identifiquen a alguien. No se garantiza anonimización completa o irreversible.
+- **Versión preliminar:** comprobada con datos ficticios en un equipo Windows, incluidos instalación aislada, modelo e historial, desinstalación y reinstalación. La integración habitual de Windows, sus diálogos y otro equipo siguen pendientes.
+
+El código es público. La licencia global de las aportaciones propias y algunos permisos de recursos visuales siguen pendientes; se conservan las atribuciones y condiciones existentes. Consulta [LICENCIAS.md](LICENCIAS.md), [CONDICIONES-ENTREGA.md](CONDICIONES-ENTREGA.md) y el [estado de validación](PREPARACION.md).
+
+## Desarrollo y documentación
+
+<details>
+<summary><strong>Ejecutar desde el código y construir el instalador</strong></summary>
+
+Se requiere **CPython 3.13.7 x64**. Desde PowerShell, en la carpeta del repositorio:
 
 ```powershell
 .\descargar-dependencias.ps1 -Python 'C:\ruta\Python313\python.exe'
@@ -26,37 +63,22 @@ En PowerShell, desde esta carpeta:
 .\iniciar.ps1
 ```
 
-La descarga necesita Internet y verifica los hashes de las 82 dependencias y de pip. La instalación posterior usa solo el kit local, fija versiones y rechaza un entorno existente. Conserva las versiones de 0.3.0; `htbuilder` se construye desde su fuente oficial verificada, porque el wheel local anterior no está publicado en PyPI. No se promete un instalador idéntico byte a byte.
+La descarga obtiene las dependencias fijadas y el modelo desde fuentes públicas y comprueba sus hashes. La instalación posterior usa el kit local y crea `.venv`; no sobrescribe un entorno existente.
 
-Consultar [INSTALACION.md](INSTALACION.md) para requisitos, hashes, uso sin red, diagnóstico y diferencia entre el bloqueo público y el histórico. Los paquetes en `wheelhouse/`, el entorno `.venv` y las evidencias locales quedan fuera de Git.
-
-Para detener el motor, usar **Configuración → Cerrar Anonimizar y detener el motor**. Cerrar solo la pestaña deja el motor activo. El instalador se distribuye por separado en la release enlazada arriba y no se guarda en el historial Git.
-
-## Uso, datos y límites
-
-Pegar texto, enviar, revisar y copiar o descargar el resultado. El historial está activado por defecto y conserva original y revisión en `%LOCALAPPDATA%\Anonimizar`; puede desactivarse en Configuración. Desactivarlo no elimina documentos anteriores. No hay cifrado local propio ni bloqueo de acceso dentro del mismo usuario de Windows.
-
-Ver [LOCAL.md](LOCAL.md) para historial, recuperación, cierre y construcción. No se promete detección completa, anonimización irreversible ni ausencia universal de conexiones externas. Las condiciones y el alcance de las pruebas están en [CONDICIONES-ENTREGA.md](CONDICIONES-ENTREGA.md).
-
-## Construir el instalador
-
-Con el entorno `.venv` instalado en esta carpeta:
+Para construir, con ese entorno instalado y el compilador .NET Framework de Windows:
 
 ```powershell
-.\.venv\Scripts\python.exe packaging\build_local.py
+.\.venv\Scripts\python.exe -B packaging\build_local.py
 ```
 
-Se requiere también el compilador .NET Framework de Windows. La construcción genera `dist-local/Anonimizar-Setup-0.3.0-win-x64.exe` e incluye runtime y dependencias locales. Los archivos generados quedan fuera de Git. La construcción y comprobación local se documentan en [INSTALADOR.md](INSTALADOR.md). La prueba en otro ordenador sigue pendiente.
+Los paquetes de `wheelhouse/`, el entorno, las evidencias y los ejecutables generados quedan fuera de Git. El instalador se distribuye mediante GitHub Releases.
 
-## Documentación y atribuciones
+</details>
 
-| Documento | Contenido |
+| Guía | Para qué sirve |
 |---|---|
-| [INSTALACION.md](INSTALACION.md) | Descarga pública verificada, instalación offline y diagnóstico |
-| [LOCAL.md](LOCAL.md) | Funcionamiento actual de Windows 0.3.0 |
-| [CONDICIONES-ENTREGA.md](CONDICIONES-ENTREGA.md) | Condiciones conservadas, privacidad y límites de validación |
-| [LICENCIAS.md](LICENCIAS.md) | Atribuciones, textos de terceros y permisos pendientes |
-| [PREPARACION.md](PREPARACION.md) | Comprobaciones y trabajo pendiente antes de publicar |
-| [Archivo histórico](avisos/historico-producto/README.md) | Documentos previos íntegros y referencias internas no incluidas |
-
-Los avisos y textos de terceros permanecen en `avisos/`. No se añade una licencia global ni se amplían permisos de redistribución por preparar esta copia.
+| [Uso de la aplicación](LOCAL.md) | Historial, privacidad, recuperación y cierre |
+| [Instalación desde el código](INSTALACION.md) | Dependencias públicas, hashes e instalación offline |
+| [Construcción y pruebas del instalador](INSTALADOR.md) | Empaquetado y ciclo de instalación/desinstalación aislado |
+| [Estado y pendientes](PREPARACION.md) | Qué está comprobado y qué falta validar |
+| [Atribuciones e historial](avisos/historico-producto/README.md) | Antecedentes conservados; los textos de terceros están en `avisos/` |
