@@ -14,6 +14,10 @@ Versión preliminar **0.3.0** · Incluye motor y modelo · Sin cuenta en la apli
 
 </div>
 
+![Pantalla de inicio de Anonimizar antes de introducir texto, con el campo vacío y sin documentos guardados.](docs/images/anonimizar-home.jpg)
+
+*Pantalla de inicio, antes de introducir texto.*
+
 ![Anonimizar mostrando un texto ficticio y su resultado: correo y teléfono sustituidos, con el importe y las instrucciones conservados.](docs/images/anonimizar-revision.jpg)
 
 *Captura real con datos ficticios. En este ejemplo se sustituyen el correo y el teléfono; el importe y las instrucciones se conservan. Toda salida necesita revisión humana.*
