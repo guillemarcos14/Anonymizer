@@ -1,0 +1,818 @@
+[
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/001-NOTICE",
+    "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+    "origin_in_evidence": "calidad/fase2-paso3/complementos-wheels/setuptools/setuptools/config/NOTICE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/002-NOTICE",
+    "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+    "origin_in_evidence": "calidad/fase2-paso3/complementos-wheels/setuptools/setuptools/config/_validate_pyproject/NOTICE"
+  },
+  {
+    "package": "spacy",
+    "file": "avisos/textos-completos/003-lemma_lookup_license.txt",
+    "sha256": "aebdce411167208210c4fc015982925d5abd390808cb413f957c0e09b91d1f03",
+    "origin_in_evidence": "calidad/fase2-paso3/complementos-wheels/spacy/spacy/lang/hr/lemma_lookup_license.txt"
+  },
+  {
+    "package": "spacy",
+    "file": "avisos/textos-completos/004-lemma_lookup_licence.txt",
+    "sha256": "82b12f9ea7f640ce0474ca1012d825551cfbdf31d74812d4c3e97c40b10a9c83",
+    "origin_in_evidence": "calidad/fase2-paso3/complementos-wheels/spacy/spacy/lang/sr/lemma_lookup_licence.txt"
+  },
+  {
+    "package": "typer",
+    "file": "avisos/textos-completos/005-LICENSE.txt",
+    "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+    "origin_in_evidence": "calidad/fase2-paso3/complementos-wheels/typer/typer/_click/LICENSE.txt"
+  },
+  {
+    "package": "watchdog",
+    "file": "avisos/textos-completos/006-AUTHORS",
+    "sha256": "253e0275f6117f5574320f516cd69a18ae8bc8ff69ced12c251e9b43e31f686f",
+    "origin_in_evidence": "calidad/fase2-paso3/complementos-wheels/watchdog/watchdog-6.0.0.dist-info/AUTHORS"
+  },
+  {
+    "package": "watchdog",
+    "file": "avisos/textos-completos/007-COPYING",
+    "sha256": "39f081828db6f94c70123fa4fb30c1bce3e215a8fdece53a49991fe076a69c08",
+    "origin_in_evidence": "calidad/fase2-paso3/complementos-wheels/watchdog/watchdog-6.0.0.dist-info/COPYING"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/008-katex-0.16.47-LICENSE.txt",
+    "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/katex-0.16.47-LICENSE.txt"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/009-material-icons-apache.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/material-icons-apache.txt"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/010-open-iconic-MIT.txt",
+    "sha256": "29d4c03ea5ae62e216f61b04718540fd4c9960dfb6dff3e2f666ffc9591775ab",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/open-iconic-MIT.txt"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/011-presidio-license.txt",
+    "sha256": "f3e86ee59a49bcfb0d9a9547484d55224ea7b2d04f95b1947b4d18d17f6de535",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/presidio-license.txt"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/012-source-code-OFL.txt",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/source-code-OFL.txt"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/013-source-sans-OFL.txt",
+    "sha256": "937d1985d2d6d003b6efdfa47e098b96c69d55395175f154d7f56410c942f978",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/source-sans-OFL.txt"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/014-source-serif-OFL.txt",
+    "sha256": "c21d7293d87b6d7ab1d0229a2f55b77f33a7613a6a4e66f6693d68d7d8d09464",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/source-serif-OFL.txt"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/015-streamlit-NOTICES.txt",
+    "sha256": "01249c3fa050d1a2450513b610d2520c7b91739b370d50fcd2567019b9afdc15",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/streamlit-NOTICES.txt"
+  },
+  {
+    "package": "Complemento oficial; ver procedencia y alcance en informe",
+    "file": "avisos/textos-completos/016-streamlit-license.txt",
+    "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+    "origin_in_evidence": "calidad/fase2-paso3/fuentes/streamlit-license.txt"
+  },
+  {
+    "package": "altair",
+    "file": "avisos/textos-completos/017-licenses__LICENSE",
+    "sha256": "648332da6631555f71f18305b96e9a2c409e73d73613b6c96587cdc0a449e054",
+    "origin_in_evidence": "producto/presidio-es/avisos/altair/licenses__LICENSE"
+  },
+  {
+    "package": "annotated-doc",
+    "file": "avisos/textos-completos/018-licenses__LICENSE",
+    "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+    "origin_in_evidence": "producto/presidio-es/avisos/annotated-doc/licenses__LICENSE"
+  },
+  {
+    "package": "annotated-types",
+    "file": "avisos/textos-completos/019-licenses__LICENSE",
+    "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+    "origin_in_evidence": "producto/presidio-es/avisos/annotated-types/licenses__LICENSE"
+  },
+  {
+    "package": "anyio",
+    "file": "avisos/textos-completos/020-licenses__LICENSE",
+    "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+    "origin_in_evidence": "producto/presidio-es/avisos/anyio/licenses__LICENSE"
+  },
+  {
+    "package": "attrs",
+    "file": "avisos/textos-completos/021-licenses__LICENSE",
+    "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+    "origin_in_evidence": "producto/presidio-es/avisos/attrs/licenses__LICENSE"
+  },
+  {
+    "package": "blis",
+    "file": "avisos/textos-completos/022-licenses__LICENSE",
+    "sha256": "1a816f433970e4f32768d30e3618bf3184752aad7c87ef10796d710e4f8653b6",
+    "origin_in_evidence": "producto/presidio-es/avisos/blis/licenses__LICENSE"
+  },
+  {
+    "package": "catalogue",
+    "file": "avisos/textos-completos/023-LICENSE",
+    "sha256": "f7f74ea82f9a10d7ce2ba05dd7e460c8c2bb42a6cc7d9ae71ab35661b5f71c9b",
+    "origin_in_evidence": "producto/presidio-es/avisos/catalogue/LICENSE"
+  },
+  {
+    "package": "certifi",
+    "file": "avisos/textos-completos/024-licenses__LICENSE",
+    "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+    "origin_in_evidence": "producto/presidio-es/avisos/certifi/licenses__LICENSE"
+  },
+  {
+    "package": "cffi",
+    "file": "avisos/textos-completos/025-licenses__LICENSE",
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63",
+    "origin_in_evidence": "producto/presidio-es/avisos/cffi/licenses__LICENSE"
+  },
+  {
+    "package": "charset-normalizer",
+    "file": "avisos/textos-completos/026-licenses__LICENSE",
+    "sha256": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1",
+    "origin_in_evidence": "producto/presidio-es/avisos/charset-normalizer/licenses__LICENSE"
+  },
+  {
+    "package": "click",
+    "file": "avisos/textos-completos/027-licenses__LICENSE.txt",
+    "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+    "origin_in_evidence": "producto/presidio-es/avisos/click/licenses__LICENSE.txt"
+  },
+  {
+    "package": "cloudpathlib",
+    "file": "avisos/textos-completos/028-licenses__LICENSE",
+    "sha256": "7ab01fa6c3fb599011ca55017e9f09f9e67b868fb421736a665992db7712c135",
+    "origin_in_evidence": "producto/presidio-es/avisos/cloudpathlib/licenses__LICENSE"
+  },
+  {
+    "package": "colorama",
+    "file": "avisos/textos-completos/029-licenses__LICENSE.txt",
+    "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318",
+    "origin_in_evidence": "producto/presidio-es/avisos/colorama/licenses__LICENSE.txt"
+  },
+  {
+    "package": "confection",
+    "file": "avisos/textos-completos/030-licenses__LICENSE",
+    "sha256": "f7f74ea82f9a10d7ce2ba05dd7e460c8c2bb42a6cc7d9ae71ab35661b5f71c9b",
+    "origin_in_evidence": "producto/presidio-es/avisos/confection/licenses__LICENSE"
+  },
+  {
+    "package": "cryptography",
+    "file": "avisos/textos-completos/031-licenses__LICENSE",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+    "origin_in_evidence": "producto/presidio-es/avisos/cryptography/licenses__LICENSE"
+  },
+  {
+    "package": "cryptography",
+    "file": "avisos/textos-completos/032-licenses__LICENSE.APACHE",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+    "origin_in_evidence": "producto/presidio-es/avisos/cryptography/licenses__LICENSE.APACHE"
+  },
+  {
+    "package": "cryptography",
+    "file": "avisos/textos-completos/033-licenses__LICENSE.BSD",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb",
+    "origin_in_evidence": "producto/presidio-es/avisos/cryptography/licenses__LICENSE.BSD"
+  },
+  {
+    "package": "cymem",
+    "file": "avisos/textos-completos/034-licenses__LICENSE",
+    "sha256": "89e53fd01751edb41e1c93d4be175f860ad742455d392fd6a89213570cd5e12c",
+    "origin_in_evidence": "producto/presidio-es/avisos/cymem/licenses__LICENSE"
+  },
+  {
+    "package": "filelock",
+    "file": "avisos/textos-completos/035-licenses__LICENSE",
+    "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48",
+    "origin_in_evidence": "producto/presidio-es/avisos/filelock/licenses__LICENSE"
+  },
+  {
+    "package": "h11",
+    "file": "avisos/textos-completos/036-licenses__LICENSE.txt",
+    "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+    "origin_in_evidence": "producto/presidio-es/avisos/h11/licenses__LICENSE.txt"
+  },
+  {
+    "package": "htbuilder",
+    "file": "avisos/textos-completos/037-licenses__LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "origin_in_evidence": "producto/presidio-es/avisos/htbuilder/licenses__LICENSE"
+  },
+  {
+    "package": "httpcore",
+    "file": "avisos/textos-completos/038-licenses__LICENSE.md",
+    "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
+    "origin_in_evidence": "producto/presidio-es/avisos/httpcore/licenses__LICENSE.md"
+  },
+  {
+    "package": "httpx",
+    "file": "avisos/textos-completos/039-licenses__LICENSE.md",
+    "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+    "origin_in_evidence": "producto/presidio-es/avisos/httpx/licenses__LICENSE.md"
+  },
+  {
+    "package": "idna",
+    "file": "avisos/textos-completos/040-licenses__LICENSE.md",
+    "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+    "origin_in_evidence": "producto/presidio-es/avisos/idna/licenses__LICENSE.md"
+  },
+  {
+    "package": "itsdangerous",
+    "file": "avisos/textos-completos/041-LICENSE.txt",
+    "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7",
+    "origin_in_evidence": "producto/presidio-es/avisos/itsdangerous/LICENSE.txt"
+  },
+  {
+    "package": "Jinja2",
+    "file": "avisos/textos-completos/042-licenses__LICENSE.txt",
+    "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+    "origin_in_evidence": "producto/presidio-es/avisos/jinja2/licenses__LICENSE.txt"
+  },
+  {
+    "package": "jsonschema-specifications",
+    "file": "avisos/textos-completos/043-licenses__COPYING",
+    "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+    "origin_in_evidence": "producto/presidio-es/avisos/jsonschema-specifications/licenses__COPYING"
+  },
+  {
+    "package": "jsonschema",
+    "file": "avisos/textos-completos/044-licenses__COPYING",
+    "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+    "origin_in_evidence": "producto/presidio-es/avisos/jsonschema/licenses__COPYING"
+  },
+  {
+    "package": "markdown-it-py",
+    "file": "avisos/textos-completos/045-licenses__LICENSE",
+    "sha256": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+    "origin_in_evidence": "producto/presidio-es/avisos/markdown-it-py/licenses__LICENSE"
+  },
+  {
+    "package": "markdown-it-py",
+    "file": "avisos/textos-completos/046-licenses__LICENSE.markdown-it",
+    "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
+    "origin_in_evidence": "producto/presidio-es/avisos/markdown-it-py/licenses__LICENSE.markdown-it"
+  },
+  {
+    "package": "MarkupSafe",
+    "file": "avisos/textos-completos/047-licenses__LICENSE.txt",
+    "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4",
+    "origin_in_evidence": "producto/presidio-es/avisos/markupsafe/licenses__LICENSE.txt"
+  },
+  {
+    "package": "mdurl",
+    "file": "avisos/textos-completos/048-LICENSE",
+    "sha256": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+    "origin_in_evidence": "producto/presidio-es/avisos/mdurl/LICENSE"
+  },
+  {
+    "package": "murmurhash",
+    "file": "avisos/textos-completos/049-licenses__LICENSE",
+    "sha256": "a989b0f1f8e0eb7781fe6a5c5bc535700046954873004bc63434d7f2d2fd50f9",
+    "origin_in_evidence": "producto/presidio-es/avisos/murmurhash/licenses__LICENSE"
+  },
+  {
+    "package": "narwhals",
+    "file": "avisos/textos-completos/050-licenses__LICENSE.md",
+    "sha256": "811445f30147b8f0c9d444c9025fd528f9532c54b7b83f6e2368473dc91cfdf0",
+    "origin_in_evidence": "producto/presidio-es/avisos/narwhals/licenses__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/051-licenses__LICENSE.txt",
+    "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__LICENSE.txt"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/052-licenses__numpy___core__include__numpy__libdivide__LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy___core__include__numpy__libdivide__LICENSE.txt"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/053-licenses__numpy___core__src__common__pythoncapi-compat__COPYING",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy___core__src__common__pythoncapi-compat__COPYING"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/054-licenses__numpy___core__src__highway__LICENSE",
+    "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy___core__src__highway__LICENSE"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/055-licenses__numpy___core__src__multiarray__dragon4_LICENSE.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy___core__src__multiarray__dragon4_LICENSE.txt"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/056-licenses__numpy___core__src__npysort__x86-simd-sort__LICENSE.md",
+    "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy___core__src__npysort__x86-simd-sort__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/057-licenses__numpy___core__src__umath__svml__LICENSE",
+    "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy___core__src__umath__svml__LICENSE"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/058-licenses__numpy__fft__pocketfft__LICENSE.md",
+    "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__fft__pocketfft__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/059-licenses__numpy__linalg__lapack_lite__LICENSE.txt",
+    "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__linalg__lapack_lite__LICENSE.txt"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/060-licenses__numpy__ma__LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__ma__LICENSE"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/061-licenses__numpy__random__LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__random__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/062-licenses__numpy__random__src__distributions__LICENSE.md",
+    "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__random__src__distributions__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/063-licenses__numpy__random__src__mt19937__LICENSE.md",
+    "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__random__src__mt19937__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/064-licenses__numpy__random__src__pcg64__LICENSE.md",
+    "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__random__src__pcg64__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/065-licenses__numpy__random__src__philox__LICENSE.md",
+    "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__random__src__philox__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/066-licenses__numpy__random__src__sfc64__LICENSE.md",
+    "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__random__src__sfc64__LICENSE.md"
+  },
+  {
+    "package": "numpy",
+    "file": "avisos/textos-completos/067-licenses__numpy__random__src__splitmix64__LICENSE.md",
+    "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763",
+    "origin_in_evidence": "producto/presidio-es/avisos/numpy/licenses__numpy__random__src__splitmix64__LICENSE.md"
+  },
+  {
+    "package": "packaging",
+    "file": "avisos/textos-completos/068-licenses__LICENSE",
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+    "origin_in_evidence": "producto/presidio-es/avisos/packaging/licenses__LICENSE"
+  },
+  {
+    "package": "packaging",
+    "file": "avisos/textos-completos/069-licenses__LICENSE.APACHE",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "origin_in_evidence": "producto/presidio-es/avisos/packaging/licenses__LICENSE.APACHE"
+  },
+  {
+    "package": "packaging",
+    "file": "avisos/textos-completos/070-licenses__LICENSE.BSD",
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+    "origin_in_evidence": "producto/presidio-es/avisos/packaging/licenses__LICENSE.BSD"
+  },
+  {
+    "package": "pandas",
+    "file": "avisos/textos-completos/071-LICENSE",
+    "sha256": "533eb6d0b98e5be3ddd12dce97be35dd11282f5c47cdf8d08c81756fd5d70a26",
+    "origin_in_evidence": "producto/presidio-es/avisos/pandas/LICENSE"
+  },
+  {
+    "package": "phonenumbers",
+    "file": "avisos/textos-completos/072-licenses__LICENSE",
+    "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "origin_in_evidence": "producto/presidio-es/avisos/phonenumbers/licenses__LICENSE"
+  },
+  {
+    "package": "pillow",
+    "file": "avisos/textos-completos/073-licenses__LICENSE",
+    "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236",
+    "origin_in_evidence": "producto/presidio-es/avisos/pillow/licenses__LICENSE"
+  },
+  {
+    "package": "preshed",
+    "file": "avisos/textos-completos/074-licenses__LICENSE",
+    "sha256": "07afc9fd475f346c69deaf9762d2ce72e7f96a95e4ea9cc319066e913d35de8e",
+    "origin_in_evidence": "producto/presidio-es/avisos/preshed/licenses__LICENSE"
+  },
+  {
+    "package": "protobuf",
+    "file": "avisos/textos-completos/075-LICENSE",
+    "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+    "origin_in_evidence": "producto/presidio-es/avisos/protobuf/LICENSE"
+  },
+  {
+    "package": "pyarrow",
+    "file": "avisos/textos-completos/076-licenses__LICENSE.txt",
+    "sha256": "2a255e0ef5946efdb2e01a4861460ce4a3333734666d256e75f9c1731a5097da",
+    "origin_in_evidence": "producto/presidio-es/avisos/pyarrow/licenses__LICENSE.txt"
+  },
+  {
+    "package": "pyarrow",
+    "file": "avisos/textos-completos/077-licenses__NOTICE.txt",
+    "sha256": "2ccca1e730e671f55b8028facf2261a6f74b561a4d96a2ccd743be19c5619236",
+    "origin_in_evidence": "producto/presidio-es/avisos/pyarrow/licenses__NOTICE.txt"
+  },
+  {
+    "package": "pycparser",
+    "file": "avisos/textos-completos/078-licenses__LICENSE",
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90",
+    "origin_in_evidence": "producto/presidio-es/avisos/pycparser/licenses__LICENSE"
+  },
+  {
+    "package": "pydantic_core",
+    "file": "avisos/textos-completos/079-licenses__LICENSE",
+    "sha256": "fbe7f615f18d135c07000e5a86325db27f42c7729699ef166ac1f7a3f4586bf4",
+    "origin_in_evidence": "producto/presidio-es/avisos/pydantic-core/licenses__LICENSE"
+  },
+  {
+    "package": "pydantic",
+    "file": "avisos/textos-completos/080-licenses__LICENSE",
+    "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+    "origin_in_evidence": "producto/presidio-es/avisos/pydantic/licenses__LICENSE"
+  },
+  {
+    "package": "pydeck",
+    "file": "avisos/textos-completos/081-licenses__LICENSE.txt",
+    "sha256": "fa22bc5599b857a628e0757d4a95024f4c392aa2a4321053d61f34ce505d6d90",
+    "origin_in_evidence": "producto/presidio-es/avisos/pydeck/licenses__LICENSE.txt"
+  },
+  {
+    "package": "Pygments",
+    "file": "avisos/textos-completos/082-licenses__AUTHORS",
+    "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f",
+    "origin_in_evidence": "producto/presidio-es/avisos/pygments/licenses__AUTHORS"
+  },
+  {
+    "package": "Pygments",
+    "file": "avisos/textos-completos/083-licenses__LICENSE",
+    "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+    "origin_in_evidence": "producto/presidio-es/avisos/pygments/licenses__LICENSE"
+  },
+  {
+    "package": "python-dateutil",
+    "file": "avisos/textos-completos/084-licenses__AUTHORS.md",
+    "sha256": "56004c45a95e9ee5582ea60f9a7ee42179c8594c7b9c245bbfb4a3445b4af640",
+    "origin_in_evidence": "producto/presidio-es/avisos/python-dateutil/licenses__AUTHORS.md"
+  },
+  {
+    "package": "python-dateutil",
+    "file": "avisos/textos-completos/085-licenses__LICENSE",
+    "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+    "origin_in_evidence": "producto/presidio-es/avisos/python-dateutil/licenses__LICENSE"
+  },
+  {
+    "package": "python-dotenv",
+    "file": "avisos/textos-completos/086-licenses__LICENSE",
+    "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+    "origin_in_evidence": "producto/presidio-es/avisos/python-dotenv/licenses__LICENSE"
+  },
+  {
+    "package": "python-multipart",
+    "file": "avisos/textos-completos/087-licenses__LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "origin_in_evidence": "producto/presidio-es/avisos/python-multipart/licenses__LICENSE.txt"
+  },
+  {
+    "package": "pytz",
+    "file": "avisos/textos-completos/088-LICENSE.txt",
+    "sha256": "be8b1a37ebe26c592a90f6c0eb33103a7f383ce2f4d7498c0af9a526990a07b8",
+    "origin_in_evidence": "producto/presidio-es/avisos/pytz/LICENSE.txt"
+  },
+  {
+    "package": "PyYAML",
+    "file": "avisos/textos-completos/089-licenses__LICENSE",
+    "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+    "origin_in_evidence": "producto/presidio-es/avisos/pyyaml/licenses__LICENSE"
+  },
+  {
+    "package": "referencing",
+    "file": "avisos/textos-completos/090-licenses__COPYING",
+    "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+    "origin_in_evidence": "producto/presidio-es/avisos/referencing/licenses__COPYING"
+  },
+  {
+    "package": "regex",
+    "file": "avisos/textos-completos/091-licenses__LICENSE.txt",
+    "sha256": "3d220c06594b826bbabf110312f60f385f99e57e529fa4b9e536f79091f8b4c7",
+    "origin_in_evidence": "producto/presidio-es/avisos/regex/licenses__LICENSE.txt"
+  },
+  {
+    "package": "requests-file",
+    "file": "avisos/textos-completos/092-licenses__LICENSE",
+    "sha256": "39ff1bc4e15ffced0047d99689d06f54bb29ce47844927a03eaa29ebb9ac0f17",
+    "origin_in_evidence": "producto/presidio-es/avisos/requests-file/licenses__LICENSE"
+  },
+  {
+    "package": "requests",
+    "file": "avisos/textos-completos/093-licenses__LICENSE",
+    "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+    "origin_in_evidence": "producto/presidio-es/avisos/requests/licenses__LICENSE"
+  },
+  {
+    "package": "requests",
+    "file": "avisos/textos-completos/094-licenses__NOTICE",
+    "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+    "origin_in_evidence": "producto/presidio-es/avisos/requests/licenses__NOTICE"
+  },
+  {
+    "package": "rich",
+    "file": "avisos/textos-completos/095-licenses__LICENSE",
+    "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+    "origin_in_evidence": "producto/presidio-es/avisos/rich/licenses__LICENSE"
+  },
+  {
+    "package": "rpds-py",
+    "file": "avisos/textos-completos/096-licenses__LICENSE",
+    "sha256": "8bcb72c82ea8ae74802293c41d93ad7d51434001b0ae45a603a5af0f507aee0a",
+    "origin_in_evidence": "producto/presidio-es/avisos/rpds-py/licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/097-_vendor__autocommand-2.2.2.dist-info__LICENSE",
+    "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__autocommand-2.2.2.dist-info__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/098-_vendor__backports.tarfile-1.2.0.dist-info__LICENSE",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__backports.tarfile-1.2.0.dist-info__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/099-_vendor__importlib_metadata-8.7.1.dist-info__licenses__LICENSE",
+    "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__importlib_metadata-8.7.1.dist-info__licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/100-_vendor__jaraco.text-4.0.0.dist-info__LICENSE",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__jaraco.text-4.0.0.dist-info__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/101-_vendor__jaraco_context-6.1.0.dist-info__licenses__LICENSE",
+    "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__jaraco_context-6.1.0.dist-info__licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/102-_vendor__jaraco_functools-4.4.0.dist-info__licenses__LICENSE",
+    "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__jaraco_functools-4.4.0.dist-info__licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/103-_vendor__more_itertools-10.8.0.dist-info__licenses__LICENSE",
+    "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__more_itertools-10.8.0.dist-info__licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/104-_vendor__packaging-26.3.dist-info__licenses__LICENSE",
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__packaging-26.3.dist-info__licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/105-_vendor__packaging-26.3.dist-info__licenses__LICENSE.APACHE",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__packaging-26.3.dist-info__licenses__LICENSE.APACHE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/106-_vendor__packaging-26.3.dist-info__licenses__LICENSE.BSD",
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__packaging-26.3.dist-info__licenses__LICENSE.BSD"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/107-_vendor__platformdirs-4.4.0.dist-info__licenses__LICENSE",
+    "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__platformdirs-4.4.0.dist-info__licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/108-_vendor__tomli-2.4.0.dist-info__licenses__LICENSE",
+    "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__tomli-2.4.0.dist-info__licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/109-_vendor__wheel-0.46.3.dist-info__licenses__LICENSE.txt",
+    "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__wheel-0.46.3.dist-info__licenses__LICENSE.txt"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/110-_vendor__zipp-3.23.0.dist-info__licenses__LICENSE",
+    "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/_vendor__zipp-3.23.0.dist-info__licenses__LICENSE"
+  },
+  {
+    "package": "setuptools",
+    "file": "avisos/textos-completos/111-licenses__LICENSE",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+    "origin_in_evidence": "producto/presidio-es/avisos/setuptools/licenses__LICENSE"
+  },
+  {
+    "package": "shellingham",
+    "file": "avisos/textos-completos/112-LICENSE",
+    "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+    "origin_in_evidence": "producto/presidio-es/avisos/shellingham/LICENSE"
+  },
+  {
+    "package": "smart_open",
+    "file": "avisos/textos-completos/113-licenses__LICENSE",
+    "sha256": "aedb4d99609243cb7d21e878af73a08cdf0fe32b94d6e09f59b39e8c2279844e",
+    "origin_in_evidence": "producto/presidio-es/avisos/smart-open/licenses__LICENSE"
+  },
+  {
+    "package": "spacy-legacy",
+    "file": "avisos/textos-completos/114-LICENSE",
+    "sha256": "95437f29c5577d43e50a0c6a5b6e74b55984e41661d1e43e32cbafa3ca557099",
+    "origin_in_evidence": "producto/presidio-es/avisos/spacy-legacy/LICENSE"
+  },
+  {
+    "package": "spacy-loggers",
+    "file": "avisos/textos-completos/115-LICENSE",
+    "sha256": "95437f29c5577d43e50a0c6a5b6e74b55984e41661d1e43e32cbafa3ca557099",
+    "origin_in_evidence": "producto/presidio-es/avisos/spacy-loggers/LICENSE"
+  },
+  {
+    "package": "spacy",
+    "file": "avisos/textos-completos/116-licenses__LICENSE",
+    "sha256": "28a7e41d177cf772d4ebebf157558501508e82e9c57b654c87865956b69f7288",
+    "origin_in_evidence": "producto/presidio-es/avisos/spacy/licenses__LICENSE"
+  },
+  {
+    "package": "srsly",
+    "file": "avisos/textos-completos/117-licenses__LICENSE",
+    "sha256": "65970ad1daa80696ad98dfb1ba116bc2e63e7529d207c261918d57e5fb10c74d",
+    "origin_in_evidence": "producto/presidio-es/avisos/srsly/licenses__LICENSE"
+  },
+  {
+    "package": "st-annotated-text",
+    "file": "avisos/textos-completos/118-LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "origin_in_evidence": "producto/presidio-es/avisos/st-annotated-text/LICENSE"
+  },
+  {
+    "package": "starlette",
+    "file": "avisos/textos-completos/119-licenses__LICENSE.md",
+    "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+    "origin_in_evidence": "producto/presidio-es/avisos/starlette/licenses__LICENSE.md"
+  },
+  {
+    "package": "thinc",
+    "file": "avisos/textos-completos/120-licenses__LICENSE",
+    "sha256": "c9181615a37a399d9f3bbc43d23da89a0639e4ed3307b34b8059875adeaa1635",
+    "origin_in_evidence": "producto/presidio-es/avisos/thinc/licenses__LICENSE"
+  },
+  {
+    "package": "tldextract",
+    "file": "avisos/textos-completos/121-licenses__LICENSE",
+    "sha256": "cc204e03504deb15a3ff822addb5a48edc9a0222bfa310479b8274cf6b563458",
+    "origin_in_evidence": "producto/presidio-es/avisos/tldextract/licenses__LICENSE"
+  },
+  {
+    "package": "tqdm",
+    "file": "avisos/textos-completos/122-licenses__LICENCE",
+    "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+    "origin_in_evidence": "producto/presidio-es/avisos/tqdm/licenses__LICENCE"
+  },
+  {
+    "package": "typer",
+    "file": "avisos/textos-completos/123-licenses__LICENSE",
+    "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
+    "origin_in_evidence": "producto/presidio-es/avisos/typer/licenses__LICENSE"
+  },
+  {
+    "package": "typing_extensions",
+    "file": "avisos/textos-completos/124-licenses__LICENSE",
+    "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+    "origin_in_evidence": "producto/presidio-es/avisos/typing-extensions/licenses__LICENSE"
+  },
+  {
+    "package": "typing-inspection",
+    "file": "avisos/textos-completos/125-licenses__LICENSE",
+    "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+    "origin_in_evidence": "producto/presidio-es/avisos/typing-inspection/licenses__LICENSE"
+  },
+  {
+    "package": "tzdata",
+    "file": "avisos/textos-completos/126-licenses__LICENSE",
+    "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46",
+    "origin_in_evidence": "producto/presidio-es/avisos/tzdata/licenses__LICENSE"
+  },
+  {
+    "package": "tzdata",
+    "file": "avisos/textos-completos/127-licenses__licenses__LICENSE_APACHE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "origin_in_evidence": "producto/presidio-es/avisos/tzdata/licenses__licenses__LICENSE_APACHE"
+  },
+  {
+    "package": "urllib3",
+    "file": "avisos/textos-completos/128-licenses__LICENSE.txt",
+    "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+    "origin_in_evidence": "producto/presidio-es/avisos/urllib3/licenses__LICENSE.txt"
+  },
+  {
+    "package": "uvicorn",
+    "file": "avisos/textos-completos/129-licenses__LICENSE.md",
+    "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+    "origin_in_evidence": "producto/presidio-es/avisos/uvicorn/licenses__LICENSE.md"
+  },
+  {
+    "package": "wasabi",
+    "file": "avisos/textos-completos/130-LICENSE",
+    "sha256": "5451063f2f9fa7ddc9541f710daebd54c3f44592caf16f6f98626c3213bec93d",
+    "origin_in_evidence": "producto/presidio-es/avisos/wasabi/LICENSE"
+  },
+  {
+    "package": "watchdog",
+    "file": "avisos/textos-completos/131-LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "origin_in_evidence": "producto/presidio-es/avisos/watchdog/LICENSE"
+  },
+  {
+    "package": "weasel",
+    "file": "avisos/textos-completos/132-licenses__LICENSE",
+    "sha256": "b4e5015878be0264d7a747a305338cc23cb2d3a50d6feb73847109a7b6e97e99",
+    "origin_in_evidence": "producto/presidio-es/avisos/weasel/licenses__LICENSE"
+  },
+  {
+    "package": "websockets",
+    "file": "avisos/textos-completos/133-licenses__LICENSE",
+    "sha256": "0f44514998aca209d3482d10204a8adf2aa4296ff157a36a5c0922f2280632d3",
+    "origin_in_evidence": "producto/presidio-es/avisos/websockets/licenses__LICENSE"
+  },
+  {
+    "package": "wrapt",
+    "file": "avisos/textos-completos/134-licenses__LICENSE",
+    "sha256": "fc5afb82933ac1843af562dc343792687e8a513058aaaffb75d8aba5492a7050",
+    "origin_in_evidence": "producto/presidio-es/avisos/wrapt/licenses__LICENSE"
+  },
+  {
+    "package": "xx_ent_wiki_sm",
+    "file": "avisos/textos-completos/135-LICENSE",
+    "sha256": "3933c176979b68bc6d0bcc902c7d6c130f1d127f476f17ba5cdba8d99cfd0012",
+    "origin_in_evidence": "calidad/fase2-paso3/sustitucion-modelo-01/modelo-extraido/xx_ent_wiki_sm-3.8.0.dist-info/LICENSE"
+  },
+  {
+    "package": "xx_ent_wiki_sm",
+    "file": "avisos/textos-completos/136-LICENSES_SOURCES",
+    "sha256": "00088755852cde64f3449d2363699c8e4320b6d7782bf07e22f6c842efa45d03",
+    "origin_in_evidence": "calidad/fase2-paso3/sustitucion-modelo-01/modelo-extraido/xx_ent_wiki_sm-3.8.0.dist-info/LICENSES_SOURCES"
+  }
+]

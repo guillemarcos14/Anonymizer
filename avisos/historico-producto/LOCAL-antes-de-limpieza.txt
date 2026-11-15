@@ -1,0 +1,34 @@
+# Anonimizar local 0.3.0 — Windows x64
+
+## Instalar y abrir
+
+1. Ejecutar `dist-local/Anonimizar-Setup-0.3.0-win-x64.exe`.
+2. Abrir **Anonimizar** desde el escritorio o Inicio. El motor arranca oculto y abre el navegador. No se requiere Python, terminal, cuenta ni conexión.
+3. Pegar texto, enviar, revisar y copiar o descargar. El límite provisional sigue siendo de 10.000 caracteres. La revisión humana sigue siendo necesaria.
+4. Para detener el motor, abrir **Configuración → Cerrar Anonimizar y detener el motor**. Cerrar solo la pestaña deja el motor preparado para volver a abrirlo.
+
+El navegador es la ventana; el motor se ejecuta en este ordenador y escucha solo en `127.0.0.1`. No hay sincronización, telemetría de uso de Streamlit ni autenticación externa. Tener acceso al mismo usuario de Windows permite acceder a los datos: esta versión no los cifra ni ofrece bloqueo propio.
+
+## Datos y privacidad
+
+- El historial está activado por defecto. Se puede desactivar en Configuración; se respetan las preferencias explícitas ya guardadas. No se guarda el borrador en disco.
+- Desactivarlo impide guardar nuevos resultados automáticamente; no elimina los documentos ya guardados. La sesión abierta conserva el texto mientras la uses.
+- Historial y ajustes viven en `%LOCALAPPDATA%\Anonimizar`, fuera del directorio del programa. Los ajustes generales no contienen texto, listas libres ni claves de cifrado. Un documento guardado sí conserva original, ajustes del documento y revisión.
+- Configuración permite exportar/importar una copia JSON, enviar uno o todos los documentos a la papelera, restaurarlos y vaciarla tras confirmación explícita. Borrar del historial no borra exportaciones ni copias antiguas. No se promete borrado forense de discos o copias de seguridad.
+- Los documentos anteriores por cuenta permanecen intactos en `.data/documents.sqlite3` de la copia de desarrollo. Configuración permite copiar expresamente una colección cada vez, sin duplicarla al repetir. Antes de copiar se crea una instantánea en `recovery/legacy-documents.sqlite3`. Esa copia también conserva las otras colecciones; es recuperación, no historial activo. El instalador nunca incluye estas bases ni credenciales.
+
+## Actualizar y recuperar
+
+Cerrar el motor desde Configuración y ejecutar el siguiente instalador. Cada compilación se instala en un directorio versionado distinto dentro de `%LOCALAPPDATA%\Programs\Anonimizar`; los accesos directos se actualizan y los datos permanecen fuera. No existe un canal público de actualizaciones: el programa no finge comprobar nuevas versiones ni descarga ejecutables. Las versiones anteriores se conservan para recuperación y pueden abrirse desde su `Anonimizar.exe` con el motor detenido.
+
+Se puede desinstalar desde Configuración de Windows → Aplicaciones. La desinstalación pide confirmación y conserva los datos del usuario. No se debe borrar la carpeta de datos sin haber exportado lo que se quiera conservar.
+
+Si el motor falla al arrancar, el lanzador muestra el error y la ruta del registro en `logs`. No registra el contenido de los documentos. Si el puerto habitual está ocupado, usa otro puerto local sin tocar procesos ajenos. Una segunda apertura reutiliza el motor existente.
+
+## Desarrollo y construcción
+
+`iniciar.ps1` abre el lanzador oculto con el entorno de desarrollo. `instalar.ps1` es solo para reconstruir ese entorno; no es el instalador del usuario final.
+
+Construir desde el entorno verificado: `.venv\Scripts\python.exe packaging\build_local.py`. Se incluye un runtime independiente de CPython 3.13.7, el modelo instalado y las dependencias locales. El manifiesto y SHA-256 están en `dist-local/build.json`; el instalador comprueba su carga antes de extraerla. No requiere descargas. El ejecutable no está firmado con un certificado de editor.
+
+Esta compilación local no acredita una instalación externa representativa ni modifica las condiciones y atribuciones de terceros. Consultar `LICENCIAS.md`, `CONDICIONES-ENTREGA.md` y `assets/PROCEDENCIA-ENTRADA.md` antes de distribuirla. Los recursos visuales de referencia conservan su procedencia; no se les atribuye una licencia adicional.

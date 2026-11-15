@@ -1,0 +1,41 @@
+# Condiciones de uso y entrega — revisión MIT integrada
+
+**CIERRE VIGENTE — paso 5 COMPLETADO DOCUMENTALMENTE, doc-05-07, 2/11/2026:** Guillem aprueba datos profesionales mínimos y conservación durante actividad y hasta 90 días tras cierre, y ordena cerrar el punto documental. Identidad personal, soporte, participación/salida voluntarias y política de permisos ya decididos. Sin entrega ni contenido real autorizados. Exclusividad no acreditada; no se promete impedir copia/reventa. [Cierre y lista única D1–D3/R1–R2](../../calidad/fase2-paso5/cierre-documental-07/informe.md). Los estados inferiores pendientes de estas aprobaciones se conservan como históricos.
+
+**Propuesta posterior doc-05-06, 2/11/2026:** preparada la información de contactos/soporte, mínimo profesional sin expedientes y conservación durante actividad más 90 días tras cierre. Pendiente de aprobación o corrección por Guillem. Con ella podrá cerrarse el paso5 documental, sin declarar aptitud de entrega/real ni exclusividad acreditada. [Propuesta y estado](../../calidad/fase2-paso5/contactos-soporte-06/estado.md).
+
+**Declaración posterior doc-05-05, 2/11/2026:** Guillem declara definición del producto y desarrollo mediante IA, sin aportaciones de otras personas o acuerdos con empleadores/clientes/colaboradores que le consten. Información de procedencia aportada; no pedir de nuevo cesiones o aportaciones no identificadas. P5-03 cerrado como revisión documental con exclusividad no acreditada: política aprobada, eficacia de impedir copia/reventa sin justificar. No equivale a licencia abierta nueva ni autorización de entrega. P5-04 y requisitos previos a entrega/real pendientes. [Resultado vigente](../../calidad/fase2-paso5/declaracion-procedencia-05/estado.md).
+
+**Aprobación posterior doc-05-04, 2/11/2026:** Guillem aprueba uso interno gratuito y restricciones sobre aportaciones cuyos derechos podamos acreditar, respetando licencias de terceros. Política decidida; no requiere otra aprobación igual. Once archivos delimitados por procedencia y cinco diferencias upstream documentadas. Esa evidencia no acredita por sí sola exclusividad: aplicación por material sigue condicionada a derechos suficientes. Información de contactos y requisitos previos a entrega/real pendientes. Sin entrega ni concesión activada. [Estado y delimitación](../../calidad/fase2-paso5/aprobacion-permisos-04/estado.md).
+
+**Confirmación posterior doc-05-03, 2/11/2026:** Guillem Arcos González confirma que organiza la prueba a título personal y atenderá guillemarcos23@gmail.com para instalación, uso e incidencias con ejemplos ficticios, sin plazo de respuesta garantizado. Identidad/condición y canal/alcance quedan decididos. Recepción no probada; condiciones propias/contactos y requisitos previos a entrega/real siguen pendientes. Esta confirmación prevalece sobre estados inferiores que pedían esos datos. [Estado actualizado](../../calidad/fase2-paso5/confirmacion-soporte-03/estado.md).
+
+**Actualización posterior doc-05-02, 2/11/2026:** organizador identificado por el usuario como Guillem Arcos González; correo de contacto/soporte designado: guillemarcos23@gmail.com. Queda resuelto aportar nombre completo y dirección. Pendientes: condición de actuación, confirmación del alcance manual de soporte, términos propios/derechos y condiciones de contactos. Recepción del correo no comprobada; sin envíos ni activación. Esta actualización prevalece sobre referencias inferiores a nombre/dirección pendientes. Evidencia: [registro actualizado](../../calidad/fase2-paso5/datos-organizador-02/estado.md).
+
+**Estado posterior doc-05-01, 2/11/2026:** paso 5 preparado documentalmente con [borrador concreto](BORRADOR-CONDICIONES-PRUEBA.md), procedimiento de soporte y [pendientes identificados](../../calidad/fase2-paso5/preparacion-01/pendientes.md). Organizador: Guillem, pendiente de identificación completa; soporte por correo existente cuya dirección indicará antes de entregar. Alcance manual propuesto y términos propios sin aprobación final ni concesión por este borrador. No se autoriza entrega/contenido real. El estado inferior «paso5 pendiente» se conserva como histórico y queda sustituido por este avance documental; las restantes condiciones se mantienen. Código/configuración sin cambios; nueva revisión documental separada de la candidata congelada.
+
+2/11/2026. Solo comprobaciones internas con texto ficticio. El paso de licencias puede cerrarse documentalmente para esta revisión sin que ello autorice distribución, producción o uso de expedientes reales. Adaptación no oficial; no contrato, certificación ni aval de los autores originales.
+
+## Uso comprobado y límites
+
+Selección exacta EMAIL_ADDRESS, PHONE_NUMBER, IBAN_CODE, ES_NIF (DNI físico), ES_NIE; replace y0,35. El selector inicial con todos los tipos sigue exploratorio. PERSON automático excluido; añadir/revisar nombres manualmente. LOCATION y domicilios completos sin soporte anunciado. El modeloMIT es multilingüe y no tiene lematizador; no trasladar resultados a otros umbrales/categorías. Comprensión humana histórica no aceptada automáticamente para esta revisión.
+
+Hasta10.000caracteres: una entrada mayor se conserva sin procesar ni truncar. Revisar el original y el resultado; el contexto puede identificar incluso sin nombres. Findings, controles y CSV conservan originales. Copiar solo la salida revisada; compartirla después es decisión del usuario y puede seguir revelando datos.
+
+## Privacidad
+
+**«La aplicación procesa localmente y no envía automáticamente tus documentos a servicios externos».** Servidor en127.0.0.1, WebSocket local; estadísticasStreamlit desactivadas, imágenes/fuentes de aplicación locales o del equipo y errores previstos genéricos. El primer uso de tldextract sin caché puede consultarURLs fijas de una lista pública de dominios; funciona sin red con la copia incluida. No confundir esa actualización con una garantía de ausencia total de red ni con un envío del documento. Navegador, extensiones y otros procesos tienen su comportamiento propio.
+
+Modelo mutable por sesión, sin caché de resultados de análisis ni persistencia configurada de documentos. Cambiar texto reinicia revisión; vaciar libera estado/modelo de la sesión. Vaciar/cerrar no sobreescribeRAM, paginación, portapapeles, descargas, historial, volcados o copias del sistema. No habilitar ALLOW_CONFIG_EDIT, servidor externo ni logsdebug. Los errores de bibliotecas fuera de bloques protegidos no quedan saneados universalmente.
+
+## Estado de las condiciones para entregar
+
+| Condición | Estado de esta revisión |
+|---|---|
+| Modelo y avisos | xx_ent_wiki_sm3.8.0MIT y WikiNERCCBY4.0, con82wheels fijados y avisos completos. Se retira el modeloGPL de esta copia. No se imponeGPL al código propio por el reemplazo; conservar términos de terceros. [LICENCIAS.md](LICENCIAS.md). |
+| Calidad | Alcance limitado y evidencia en el [control vigente](../../control-calidad-producto.md). No anonimización total ni aceptación humana nueva. |
+| Equipo representativo | Un solo ordenador disponible; preparación cerrada con esa limitación. La primera instalación externa futura, autorizada y con texto ficticio, debe ejecutar el protocolo antes de contenido real. |
+| Organización y términos propios | Paso5 pendiente: responsable, soporte, participación voluntaria, condiciones de acceso y términos de uso/entrega. La revisión de avisos no concede por sí sola una licencia adicional sobre aportaciones propias. |
+| Decisión de entrega | Pendiente y expresa. No se distribuye esta revisión a terceros por integrarla. Producto gratuito hasta nuevo aviso; no se fijan precios ni conversión automática a pago. |
+
+Soporte con ejemplos ficticios: versión, plataforma, pasos y error sin datos del expediente. No solicitar expedientes por correo. Cualquier acceso imprescindible a contenido real exige acordar previamente alcance y condiciones. No hay cuentas nuevas, terceros contactados, envíos, cobros ni publicación.

@@ -1,0 +1,242 @@
+{
+  "integration_utc": "2026-11-02T17:55:27.861726+00:00",
+  "upstream": "presidio/presidio_demo",
+  "revision": "9fb5e22d76bdd3b06e2a956ae62003ca9973920d",
+  "upstream_license_declaration": "MIT en README de la revisión exacta",
+  "source_product": "producto/presidio-es",
+  "previous_source_hashes": [
+    {
+      "product_file": "producto/presidio-es/demo_text.txt",
+      "sha256": "437526c1e94a9b6385dcc1544b3b730d7992f79144183cb297aa36999d78a69e",
+      "upstream_member": "demo_text.txt",
+      "upstream_sha256": "b0df7a635b2c5373507fab4542338b441a0fd88ba35f22ed3679fb9f262e6381",
+      "estado": "modificado respecto upstream"
+    },
+    {
+      "product_file": "producto/presidio-es/dps-icon.svg",
+      "sha256": "294e2e5d97471a12049d6f05bc8f66c21fddeee990c0c03841f89f0dc0a1ef5b",
+      "upstream_member": "dps-icon.svg",
+      "upstream_sha256": "294e2e5d97471a12049d6f05bc8f66c21fddeee990c0c03841f89f0dc0a1ef5b",
+      "estado": "sin cambio"
+    },
+    {
+      "product_file": "producto/presidio-es/identidades.py",
+      "sha256": "8eb3d15ed82ec26a13314ecb325be9aa12009754c05fed876e8de8b63eb1cebf",
+      "upstream_member": null,
+      "upstream_sha256": null,
+      "estado": "añadido localmente; no se asigna titular/licencia por este inventario"
+    },
+    {
+      "product_file": "producto/presidio-es/identidades_ui.py",
+      "sha256": "aed57ceab71510eead02ff4ba175c6a0bb28c66cd5e76f6d4f5c749dadeb4f16",
+      "upstream_member": null,
+      "upstream_sha256": null,
+      "estado": "añadido localmente; no se asigna titular/licencia por este inventario"
+    },
+    {
+      "product_file": "producto/presidio-es/iniciar.ps1",
+      "sha256": "360623606b165923ff56d64e25d2c0d4d4cac94fda1276a01af308cf06db45fe",
+      "upstream_member": null,
+      "upstream_sha256": null,
+      "estado": "añadido localmente; no se asigna titular/licencia por este inventario"
+    },
+    {
+      "product_file": "producto/presidio-es/instalar.ps1",
+      "sha256": "49a3f48f318ee62c047d86eb22c637f60f351e01e3cf842b7fedb582d6a6144c",
+      "upstream_member": null,
+      "upstream_sha256": null,
+      "estado": "añadido localmente; no se asigna titular/licencia por este inventario"
+    },
+    {
+      "product_file": "producto/presidio-es/phone_boundaries.py",
+      "sha256": "18599cdd9123b7f02cfcd394b2cfd5cbb3938488f8329f0a78d138f4734f1d39",
+      "upstream_member": null,
+      "upstream_sha256": null,
+      "estado": "añadido localmente; no se asigna titular/licencia por este inventario"
+    },
+    {
+      "product_file": "producto/presidio-es/presidio_analyzer_config.py",
+      "sha256": "6185694f37fcb6cf85e268324eb2b10d788e114b7178fdc013082e8543451a3e",
+      "upstream_member": "presidio_analyzer_config.py",
+      "upstream_sha256": "8aa25dd9cac056680fe2b2c9807ebabe4cd48cc41ec8cbbddf651767bf31393f",
+      "estado": "modificado respecto upstream"
+    },
+    {
+      "product_file": "producto/presidio-es/presidio_branding.py",
+      "sha256": "41f364bc0bc2989364c98b57a981ace891ba7a71fc03f1338c23201b94fe13b7",
+      "upstream_member": "presidio_branding.py",
+      "upstream_sha256": "afcb99117b68b51b93583bebde06d6109cc260889c1afbedd4dd94816cbb687a",
+      "estado": "modificado respecto upstream"
+    },
+    {
+      "product_file": "producto/presidio-es/presidio_helpers.py",
+      "sha256": "d746f91b9ce3a47a2078d2259e599c55829fda5d009f9d19d134040f1998e5bc",
+      "upstream_member": "presidio_helpers.py",
+      "upstream_sha256": "f5d2625ae216d6bdfe696264a0e7964008de29faad07cf2cac7dc455251c805e",
+      "estado": "modificado respecto upstream"
+    },
+    {
+      "product_file": "producto/presidio-es/presidio_streamlit.py",
+      "sha256": "edaccd89d2850d50fc706482a60cc1d006f757c1829c094df5fbd9c6667f582f",
+      "upstream_member": "presidio_streamlit.py",
+      "upstream_sha256": "8ade5161b6237f366cc748f6a38931b5bfb2dd400b7a9bb423490a13269b4614",
+      "estado": "modificado respecto upstream"
+    }
+  ],
+  "integration_changes": [
+    "Sustituido es_core_news_md3.8.0 por xx_ent_wiki_sm3.8.0 sin modificar pesos",
+    "Configuración portable y rótulos actualizados",
+    "81wheels sin cambios; modelo y avisos específicos reemplazados",
+    "Documentación de uso/alcance/licencias actualizada"
+  ],
+  "own_contributions": "No se atribuye titular inexistente ni se adoptaGPLglobal. Términos de terceros conservados.",
+  "revisiones_visuales": [
+    {
+      "revision": "visual-08-output-inter",
+      "fecha": "2026-11-03",
+      "cambios": [
+        "Output reservado antes de controles de revisión, llenado después de calcular el resultado actual; altura 400",
+        "Inter local en texto, títulos, controles y salida"
+      ],
+      "licencia_fuente": "SIL OFL 1.1; avisos/inter/LICENSE.txt",
+      "preserva": "Lógica de detección/revisión, controles, estados y configuración no visual",
+      "candidata_congelada": "mit-integrada-01 preservada como evidencia; producto actual ya difiere",
+      "copia_D2": "d2-doc-09 intacta, no actualizada ni aplicable automáticamente a esta revisión"
+    },
+    {
+      "revision": "visual-09-elevenlabs-alineacion",
+      "fecha": "2026-11-03",
+      "base": "visual-08-output-inter",
+      "cambios": [
+        "Etiquetas con misma estructura y cuadros de 400px incluidos bordes; ancho idéntico por columnas iguales",
+        "Paleta neutral tomada de observación de elevenlabs.io; sin assets ni código externos",
+        "Logo original mostrado en escala de grises mediante CSS, archivo y procedencia preservados"
+      ],
+      "fuente_colores": "https://elevenlabs.io/",
+      "evidencia": "calidad/visuals/visuals-09-elevenlabs-alineacion",
+      "funcionalidad": "Llamadas y argumentos de procesamiento sin cambios",
+      "copia_D2": "Sin modificaciones; no representa esta revisión"
+    },
+    {
+      "revision": "visual-10-nombre-anonimous",
+      "fecha": "2026-11-03",
+      "base": "visual-09-elevenlabs-alineacion",
+      "cambios": [
+        "Nombre visible anonimous en pestaña, cabeceras, About y ayudas; retirados enlaces promocionales previos",
+        "Nuevo monograma geométrico anonimous-icon.svg; original dps-icon.svg preservado sin uso en interfaz"
+      ],
+      "obligaciones": "Avisos y atribuciones originales conservados; identificadores de biblioteca y configuración sin renombrar",
+      "logica": "Sin cambios en procesamiento/revisión",
+      "proteccion": "No acredita exclusividad ni disponibilidad registral"
+    },
+    {
+      "revision": "visual-11-split-minimal",
+      "fecha": "2026-11-03",
+      "base": "visual-10-nombre-anonimous",
+      "referencia": "Imagen local aportada por Guillem; solo en evidencia, no en producto",
+      "cambios": [
+        "Mitades iguales clara/oscura con marco blanco; tonos muestreados de referencia",
+        "Configuración visible bajo comparación y revisión, sin sidebar; controles y keys preservados",
+        "CSS local separado, Inter local conservada"
+      ],
+      "limites": "Sin gráficos, contenido o funciones ficticias; no acredita exclusividad sobre referencia",
+      "candidata_y_D2": "Sin modificaciones"
+    },
+    {
+      "revision": "visual-12-motion",
+      "fecha": "2026-11-03",
+      "base": "visual-11-split-minimal",
+      "referencia": "https://es.pinterest.com/pin/846606430014894810/",
+      "cambios": [
+        "Pantalla inicial dos mitades, fondo izquierdo #FAF6F3 muestreado y texto negro",
+        "Botón Anonimizar explícito; edición invalida resultado; revisión y configuración conservadas debajo",
+        "Animación CSS local azul/verde, último fotograma congelado y fade de 800ms al output blanco/negro"
+      ],
+      "material_referencia": "Solo en evidencia; sin vídeo, imagen, marca o código de terceros en producto",
+      "pruebas": "Harness aislado con respuesta de detector fabricada, sin corpus ni nueva evaluación del detector",
+      "candidata_y_D2": "Preservadas; esta revisión no hereda su aceptación"
+    },
+    {
+      "revision": "visual-13-focus",
+      "fecha": "2026-11-03",
+      "base": "visual-12-motion",
+      "cambios": [
+        "Entrada input centrado, output oculto; al pulsar desplazamiento lateral850ms y revelado",
+        "Eliminados textos secundarios solicitados; revisión inferior y mensajes de límite/error preservados",
+        "Campos nativos con altura y scroll iguales; negro base202020 en CSS y tema"
+      ],
+      "core": "Sin cambios de motor, argumentos, modelos o configuración no visual",
+      "pruebas": "Interfaz y movimiento con backend fabricado separado, sin corpus ni nueva evaluación detector",
+      "candidata_y_D2": "Sin escrituras; no sustituidas ni aceptación heredada"
+    },
+    {
+      "revision": "visual-14-premium-entry",
+      "fecha": "2026-11-03",
+      "base": "visual-13-focus",
+      "referencia": "AI APP BUILDER HERO PAGE.jpeg aportada por usuario; solo evidencia local",
+      "cambios": [
+        "Título/subtítulo y compositor compacto centrado, Inter local/papel/202020",
+        "Entrada vacía y placeholder; demo_text.txt preservado",
+        "Botón Vaciar y su callback retirados por instrucción expresa; recuperación de error ajustada al control disponible",
+        "Transición y carga previas conservadas; expansión del mismo input a comparación con altura de lectura igual"
+      ],
+      "limites": "Sin imagen, fondos, marca o código de referencia en el producto; no exclusividad acreditada",
+      "core": "Sin cambios en motor, modelos o configuración",
+      "candidata_y_D2": "Sin escrituras ni aceptación heredada"
+    },
+    {
+      "revision": "visual-15-grain-glass",
+      "fecha": "2026-11-03",
+      "cambios": [
+        "Copy de beneficio y control humano",
+        "Instrument Serif local solo h1; Inter subtítulo",
+        "Degradado granular original y glass inicial condicionado a ausencia split"
+      ],
+      "fuente": {
+        "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+        "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+        "licencia": "assets/fonts/InstrumentSerif-OFL.txt"
+      },
+      "referencia": "https://es.pinterest.com/pin/510525307778527059/; observada, no incorporada",
+      "grano": "PNG procedural semilla1503, sin píxeles de terceros",
+      "core": "Sin cambios de motor, modelos o configuración",
+      "candidata_y_D2": "Sin escrituras ni aceptación heredada"
+    },
+    {
+      "revision": "visual-17-premium-minimal",
+      "fecha": "2026-11-03",
+      "base": "visual-16-restore-split",
+      "cambios": [
+        "Dos columnas iniciales; Inter/crema/negro",
+        "Original/Anonimizado; reposo negro sin círculo",
+        "Pie alineado; botón cápsula44px/radio999px",
+        "Carga azul/verde y fundido800ms conservados"
+      ],
+      "core": "Sin cambios de motor/modelos/configuración",
+      "recursos": "Locales; no nuevos; serif y grano anteriores no se cargan",
+      "candidata_y_D2": "Sin escrituras"
+    },
+    {
+      "revision": "visual-18-spacing",
+      "fecha": "2026-11-03",
+      "cambios": [
+        "Botónizquierda contador derecha en DOM y grid",
+        "Mensaje idle vacío retirado",
+        "Separación bajo títulos34px, aumento16px"
+      ],
+      "core_y_animacion": "sin cambios",
+      "candidata_y_D2": "sin escrituras"
+    },
+    {
+      "revision": "visual-19-close-entry",
+      "fecha": "2026-11-03",
+      "cambios": [
+        "Pega aquí tu texto.",
+        "Contador español y cifras tabulares",
+        "Indicador de foco bajo Original; sin marco permanente"
+      ],
+      "verificacion": "8054caracteres sintéticos en fixture aislada; lectura, revisión y copia",
+      "core_y_candidata": "sin cambios"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Referencia de dependencias directas, no un bloqueo de instalacion completo.
+# Usar descargar-dependencias.ps1 e instalar.ps1; ver INSTALACION.md.
+presidio-analyzer==2.2.366
+presidio-anonymizer==2.2.366
+spacy==3.8.18
+xx-ent-wiki-sm==3.8.0
+streamlit==1.66.1
+pandas==2.3.3
+python-dotenv==1.2.4
+st-annotated-text==4.0.2

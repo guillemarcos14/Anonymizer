@@ -1,0 +1,39 @@
+# Entornos y paquetes locales
+.venv/
+.venv-*/
+venv/
+node_modules/
+wheelhouse/
+# Datos, credenciales y configuración privada
+.data/
+.env
+.env.*
+!.env.example
+.streamlit/*
+!.streamlit/config.toml
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.p8
+*.pem
+# Almacén público de certificados conservado entre los avisos de certifi
+!avisos/fuentes/archivos-wheel/certifi/cacert.pem
+*.key
+*.jwt
+# Generados y recuperación
+__pycache__/
+*.py[cod]
+*.log
+dist-local/
+build/
+dist/
+recovery/
+logs/
+*.zip
+*.exe
+Thumbs.db
+.DS_Store
+
+# Evidencias locales de preparacion
+verificacion-local/

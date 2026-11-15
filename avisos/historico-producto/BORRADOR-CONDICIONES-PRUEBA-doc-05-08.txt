@@ -1,0 +1,118 @@
+# Condiciones documentales de prueba gratuita — doc-05-08
+
+**D1 RESUELTO como decisión comercial limitada — doc-05-08, 3/11/2026:** Guillem elige A, prioriza duración indefinida y autoriza 12 meses si resulta compleja. Examinada la incertidumbre de una obligación irrevocable tras la salida, se aplica la alternativa autorizada: compromiso separado de no redistribuir incrementos locales durante 12 meses desde aceptación válida de ambas partes, con exclusiones de terceros y facultades legales, sin renovación automática. No acredita exclusividad ni garantiza impedir copia/reventa. No es plazo de gratuidad. [Análisis y decisión](../../calidad/pendientes/punto1/indefinido-02/informe.md) · [Texto concreto](../../calidad/pendientes/punto1/indefinido-02/propuesta-12-meses.md). Paso 5 documental sigue cerrado; candidata técnica intacta y revisión documental nueva separada. Sin aceptación de participantes ni entrega. D2/D3/R1/R2 siguen pendientes y no se inician. Los estados anteriores inferiores se conservan como históricos.
+
+**CIERRE VIGENTE — paso 5 COMPLETADO DOCUMENTALMENTE, doc-05-07, 2/11/2026:** Guillem aprueba datos profesionales mínimos y conservación durante actividad y hasta 90 días tras cierre, y ordena cerrar el punto documental. Identidad personal, soporte, participación/salida voluntarias y política de permisos ya decididos. Sin entrega ni contenido real autorizados. Exclusividad no acreditada; no se promete impedir copia/reventa. [Cierre y lista única D1–D3/R1–R2](../../calidad/fase2-paso5/cierre-documental-07/informe.md). Los estados inferiores pendientes de estas aprobaciones se conservan como históricos.
+
+2/11/2026. **Paso 5 cerrado documentalmente por Guillem; sin entrega ni aceptación por un despacho.** Preparado para la revisión técnica `mit-integrada-01`. Estos términos no cambian el código ni autorizan usar contenido real. Las decisiones pendientes están en el [registro del paso 5](../../calidad/fase2-paso5/cierre-documental-07/informe.md).
+
+## Quién organiza y quién participa
+
+Organizador: Guillem Arcos González. Contacto y correo de soporte designado: guillemarcos23@gmail.com, facilitado por el propio usuario el 2/11/2026. Guillem confirma que organiza la prueba a título personal y atenderá ese correo. Antes de entregar queda por delimitar la legitimación para conceder permisos sobre las aportaciones propias. No se presume una sociedad, domicilio, titularidad exclusiva ni representación de terceros.
+
+Prueba local para despachos españoles de hasta cinco personas. El titular o socio autoriza la participación y designa a quien usa y revisa la herramienta. Registrar únicamente las personas de contacto necesarias; no nombres de clientes ni expedientes. La ficha de participación recogerá versión, equipo, personas autorizadas y fecha de incorporación, sin crear cuentas de aplicación.
+
+## Gratuidad, participación y salida
+
+La participación es voluntaria y el producto permanece gratuito hasta nuevo aviso. No hay precio, cobro, suscripción, permanencia, exclusividad ni conversión automática a pago. Cualquier oferta económica futura requerirá una decisión y aceptación separadas; no generará cargos por usos anteriores.
+
+La prueba puede abandonarse en cualquier momento mediante el correo de soporte guillemarcos23@gmail.com, sin justificar la salida ni asumir tareas mínimas. Se propone una revisión a los siete días de la incorporación; no es vencimiento de la gratuidad ni obligación de repetir. No hay fecha de inicio efectiva ni despacho incorporado.
+
+Al salir, se detiene el soporte de esa participación; se puede dejar de usar o retirar la copia de la adaptación. El participante conserva sus documentos y resultados, sin obligación de enviarlos. Si se retira una copia, conservará por separado los materiales de terceros que tenga derecho a conservar. Las obligaciones legales de conservación que correspondan no se sustituyen por una promesa de borrado. No se pide testimonio público, nombre o logotipo: su publicación necesitaría permiso separado.
+
+## Qué permite comprobar la herramienta
+
+Solo texto en español pegado, hasta 10.000 caracteres: detectar → revisar/corregir → copiar el resultado revisado. Instalación local Windows x64 / CPython 3.13.7, con componentes fijados. No se ofrecen Word/PDF, OCR, lotes, integraciones, alojamiento ni cuentas.
+
+Seleccionar exactamente **EMAIL_ADDRESS, PHONE_NUMBER, IBAN_CODE, ES_NIF (solo DNI físico) y ES_NIE; replace; 0,35**. El selector inicial completo sigue siendo exploratorio. PERSON automático está excluido: añadir los nombres omitidos y confirmar las agrupaciones manualmente. LOCATION y domicilios completos no tienen soporte; otros tipos no están aceptados. No hay equivalencia general a otros umbrales o contextos ni consistencia entre documentos.
+
+Quien revisa compara original y resultado, corrige omisiones y sustituciones indebidas y verifica quién hace o afirma cada cosa, negaciones, hechos e importes. También revisa contexto, salud y detalles indirectos identificativos. No se promete anonimización completa, precisión general, ahorro, conservación automática de comprensión ni cumplimiento automático del RGPD. La aceptación humana histórica de cuatro salidas no se transfiere a esta revisión.
+
+**Findings y su CSV contienen originales.** No enviarlos al soporte ni usarlos como resultado para compartir. Copiar solo el recuadro revisado; decidir su posterior destinatario exige revisar lo que aún puede revelar. Vaciar y cerrar al terminar no borra de forma segura portapapeles, descargas ni rastros del sistema. No habilitar configuración avanzada, logs de depuración o acceso del servidor desde otros equipos.
+
+## Privacidad y acceso para soporte
+
+**«La aplicación procesa localmente y no envía automáticamente tus documentos a servicios externos».** No es una garantía de ausencia total de red ni de que el texto nunca salga del equipo. Al primer uso sin caché puede intentarse actualizar una lista pública de dominios en direcciones fijas; según el código revisado no incorpora el documento y existe copia local de respaldo. El navegador y otros programas tienen su propio comportamiento. No se requiere cambiar de navegador para esta preparación.
+
+El soporte no incluye acceso a expedientes, pantalla con datos reales, grabación, control remoto ni envío de documentos. Por defecto se reconstruye el problema con un ejemplo totalmente ficticio. La participación no autoriza ningún acceso excepcional.
+
+Si ese acceso resultara imprescindible, se para y se define antes quién accede, para qué, a qué mínimo contenido, por qué medio, durante cuánto tiempo y cómo se retira o conserva la evidencia necesaria. Se aclararán las funciones y obligaciones efectivas de cada parte y el instrumento aplicable, si corresponde. No se presume que entregar software local nos haga encargados de todo el tratamiento del despacho, ni que la gratuidad elimine obligaciones. No se inicia ese acceso con esta ficha.
+
+## Soporte e incidencias
+
+Correo de soporte designado por Guillem Arcos González: **guillemarcos23@gmail.com**. No se ha enviado ningún mensaje ni verificado la recepción; no hay servicio activado. Alcance confirmado por Guillem: atención manual de instalación, uso e incidencias con ejemplos ficticios y sin plazo de respuesta garantizado. No se acuerda servicio continuo, mantenimiento universal ni desarrollo a medida. Las condiciones están preparadas, sin activar una participación ni ofrecer todavía el servicio a terceros.
+
+El aviso debe incluir ID de incidencia, revisión, sistema/Python/navegador, momento, pasos con ejemplo ficticio, resultado esperado y observado, gravedad y estado. Excluir documentos, Findings/CSV, capturas con texto real, rutas con nombres, nombres de clientes y volcados completos. No enviar contraseñas. Plantilla y procedimiento: [soporte-incidencias.md](../../calidad/fase2-paso5/preparacion-01/soporte-incidencias.md).
+
+Ante datos residuales, confusión de participantes, cambio de hechos o sospecha de exposición: parar la tarea, no compartir la salida y avisar sin contenido. El organizador registra el bloqueo y comunica el alcance afectado a los participantes por el canal acordado. No se reanuda por una simple promesa de corrección; se necesita evidencia y decisión sobre el alcance. El despacho atiende las obligaciones que correspondan a su tratamiento; el organizador las de su intervención. Un aviso de soporte no sustituye las comunicaciones legales que procedan.
+
+## Política de permisos aprobada sobre la adaptación
+
+**Política aprobada por Guillem Arcos González el 2/11/2026; sin concesión activada a destinatarios por este borrador.** Se aprueba permitir instalar, ejecutar y hacer las copias necesarias de las aportaciones licenciables para la prueba interna del despacho participante, de forma gratuita y no exclusiva. La aplicación de restricciones queda condicionada a identificar aportaciones protegibles sobre las que Guillem pueda otorgar los derechos necesarios; esa base no se acredita únicamente por haber añadido o modificado un archivo. Guillem declara haber definido el producto y desarrollado mediante IA; no le constan aportaciones de otras personas ni acuerdos con empleadores, clientes o colaboradores. La declaración de procedencia queda recogida: con las pruebas disponibles no se identifican partes con exclusividad propia acreditada, ni se garantiza impedir copia o reventa mediante esos derechos. Tampoco se concluye que toda aportación asistida por IA carezca de protección. La política no equivale a una nueva licencia abierta ni impone publicar el código. No se concede por estos términos permiso de venta, sublicencia, publicación o redistribución de esas aportaciones a otros despachos. La restricción solo alcanzará material sobre el que existan derechos suficientes; no basta llamar «propio» a un archivo para acreditarlos. No se pacta una prohibición absoluta de estudiar el programa ni se eliminan facultades legales imperativas.
+
+Estas limitaciones **no se aplican a los derechos independientes de terceros** sobre demo upstream, bibliotecas, modelo, datos o fuentes: prevalecen sus licencias MIT, CC BY, MPL y demás condiciones. Conservar avisos, atribuciones y fuentes exigibles. Un archivo modificado puede contener partes de terceros; no se reclama exclusividad sobre el archivo entero. No se adopta GPL global. Véase [LICENCIAS.md](LICENCIAS.md).
+
+La entrega Python local contiene `.py` legibles. Términos propietarios sobre aportaciones protegibles no garantizan secreto técnico ni exclusividad del producto completo, ni acreditan protección automática de material generado con IA. No se introduce ofuscación, servidor o compilación. La prueba no es una cesión de los documentos del despacho ni licencia para utilizarlos en entrenamiento o publicidad.
+
+## Compromiso contractual de no redistribución — D1, 12 meses
+
+**Decisión del organizador preparada el 3/11/2026 conforme a la alternativa autorizada por Guillem; sin aceptación por participante.** Este compromiso es distinto de la política de licencias del apartado anterior: no convierte el material incierto en copyright exclusivo. La explicación de esa política condicionada conserva su alcance.
+
+### Finalidad y permiso interno
+
+La participación tiene por finalidad evaluar internamente y de forma voluntaria la adaptación local facilitada por Guillem Arcos González. El producto permanece gratuito hasta nuevo aviso, sin permanencia, obligación de feedback o conversión automática a pago. El participante puede retirarse en cualquier momento.
+
+Quien acepte válidamente este compromiso puede utilizar internamente los materiales locales recibidos y realizar las copias necesarias para esa evaluación. El acceso dentro del despacho se limita a las personas usuarias autorizadas para la prueba. Este texto no atribuye a Guillem derechos que no tenga para conceder permisos de propiedad intelectual.
+
+### Objeto del compromiso
+
+El participante se compromete frente a Guillem a no vender, sublicenciar, publicar, compartir o entregar a otras personas o entidades los materiales locales definidos en el anexo, ni copias o versiones modificadas que incorporen esos materiales, durante el plazo indicado abajo. No prohíbe las copias internas necesarias, el uso interno en la actividad profesional o el desarrollo de una implementación independiente sin copiar el material sujeto al pacto.
+
+El compromiso recae únicamente en los cinco añadidos y los incrementos locales de los cinco archivos modificados delimitados por la revisión exacta recibida y su anexo, excluyendo cualquier parte de terceros. Es una obligación contractual propuesta al participante, diferente de las restricciones que procedan de derechos de autor que realmente existan. No exige afirmar autoría humana del código generado mediante IA ni presume que todo resultado asistido por IA carezca de protección.
+
+### Duración y salida
+
+**El compromiso dura 12 meses desde la aceptación válida por ambas partes de estas condiciones y del anexo de la revisión exacta que se facilitará. La fecha inicial y la fecha final se identificarán expresamente en esa aceptación. No se empieza a contar al aprobar este documento internamente.**
+
+El participante puede abandonar la prueba en cualquier momento, sin coste o necesidad de justificarlo. Esa salida no anticipa la fecha final del compromiso sobre materiales ya recibidos: la obligación de no redistribuir se mantiene hasta completar los 12 meses. No obliga a conservar la copia, seguir utilizando la aplicación, mantener contacto, aportar resultados o recibir soporte.
+
+**No hay renovación automática.** Cambios documentales o versiones futuras no reinician por sí solos el plazo. Una modificación requiere acuerdo expreso y no puede retirar permisos independientes de terceros ni alterar retroactivamente derechos concedidos. Concluidos los 12 meses termina esta obligación contractual de no redistribuir; los derechos de autor que existan y se acrediten conservan su régimen, sin que aquí se garantice otra base para impedir la reventa posterior.
+
+Los 12 meses no son el plazo de gratuidad ni anuncian una suscripción o pago futuro. Cualquier oferta económica necesitaría decisión y aceptación separadas y no generaría cargos por usos anteriores.
+
+### Exclusiones y facultades preservadas
+
+Quedan fuera la demo upstream, bibliotecas, modelo, datos, fuentes, avisos y toda parte de terceros, identificada o no en el inventario. Sus licencias MIT, CC BY, MPL y demás condiciones prevalecen respecto de ese material. Puede separarse, obtenerse por otros medios y redistribuirse o venderse cuando lo permita su licencia, sin autorización adicional de Guillem. No se exige aceptar este compromiso para ejercer esos derechos independientes. Las exclusiones se mantienen aunque el material figure en el mismo paquete o archivo modificado.
+
+El pacto no limita facultades legales imperativas, respaldo necesario, estudio permitido o interoperabilidad en sus condiciones. No impone confidencialidad sobre lo público, no prohíbe competir mediante un producto desarrollado independientemente y no alcanza documentos, resultados o conocimientos generales del participante.
+
+### Alcance y remedios
+
+Solo obliga a quienes resulten vinculados por aceptación válida. No garantiza exclusividad frente a otras personas, protección automática del output IA, ausencia de derechos ajenos o impedimento técnico de copia de los `.py` legibles. Una firma sin capacidad suficiente no obliga automáticamente a todo un despacho.
+
+Ante incumplimiento podrán solicitarse los remedios legalmente procedentes, acreditando sus requisitos. No se fija multa, indemnización automática, auditoría del ordenador, control remoto o acceso a expedientes. Se mantienen alcance y límites del soporte ya aprobados. La terminación de la participación o soporte no retira licencias de terceros.
+
+### Anexo del objeto actual
+
+| Grupo | Delimitación de partida para la revisión actual |
+|---|---|
+| Añadidos locales, excluyendo partes de terceros | `identidades.py`, `identidades_ui.py`, `phone_boundaries.py`, `iniciar.ps1`, `instalar.ps1`. Once hashes del material total cotejados en [cotejo-material.json](../../calidad/pendientes/punto1/cotejo-material.json). |
+| Incrementos locales en base upstream | Adiciones locales de `demo_text.txt`, `presidio_analyzer_config.py`, `presidio_branding.py`, `presidio_helpers.py`, `presidio_streamlit.py`, delimitadas por los cinco `.diff` conservados en [doc-05-04](../../calidad/fase2-paso5/aprobacion-permisos-04/estado.md). No incluye las líneas upstream, el contenido eliminado ni partes de terceros. |
+| Exclusiones expresas adicionales | `dps-icon.svg`; modelo, wheels, fuentes y avisos; configuración, locks y documentación fuera de esos diez archivos. Cualquier parte de terceros dentro de los grupos anteriores queda también excluida. |
+
+Los hashes y diff prueban identificación/procedencia técnica, no originalidad o titularidad. Si un fragmento es íntegramente de terceros, este compromiso no lo restringe. Antes de cualquier entrega, D2 deberá fijar y facilitar un anexo inteligible con material y exclusiones, hashes y revisión recibida; no se presenta este enlace interno como sustituto de ese anexo o como entrega efectiva.
+
+Las condiciones completas y el anexo deben facilitarse previamente en ejemplar conservable y aceptarse de forma documentada por ambas partes, con representante de capacidad suficiente cuando corresponda. No basta abrir el programa, el silencio o incluir este archivo en una carpeta. Aquí no se identifican destinatarios ni se recopilan firmas o datos.
+
+
+## Contactos y consultas de soporte
+
+La [información de contactos](INFORMACION-CONTACTOS.md) concreta responsable, finalidad, datos mínimos, fundamento, proveedor de correo, derechos y conservación durante la participación más 90 días tras cierre. Guillem aprueba los datos mínimos y conservarlos hasta 90 días después del cierre. El paso5 queda cerrado documentalmente; no se inicia recopilación ni se activa el canal por esta aprobación.
+
+## Antes de activar una participación
+
+Identidad, condición personal, canal/alcance de soporte y decisiones de contactos ya están recogidos. Antes de activar una participación, resolver los [pendientes D1–D3/R1–R2](../../calidad/fase2-paso5/cierre-documental-07/informe.md): D1 ya resuelto comercialmente con protección contractual limitada; siguen destinatario/entrega (D2), canal real (D3), instalación externa ficticia (R1) y comprensión/decisión antes de real (R2); fijar las revisiones exactas y aceptación del participante. No hay renuncia general de responsabilidad ni exención que anule derechos legales.
+
+La primera instalación externa requiere autorización expresa de destinatario y entrega, un manifiesto actualizado y el protocolo del paso 4 adaptado a la revisión MIT vigente, inicialmente solo con texto ficticio. Los kits históricos no se entregan como actuales.
+
+**Antes de contenido real, además:** instalación representativa satisfactoria, revisión/comprensión aplicable a la candidata ofrecida y decisión expresa posterior tras revisar todos los pendientes. No se ejecutan esas tareas por redactar este documento.

@@ -1,0 +1,9 @@
+# Recursos del registro — 4/11/2026
+
+Referencia visual: https://lovable.dev/signup?redirect=%2Fes%2Fhome, abierta y medida en el navegador interno por petición de Guillem.
+
+Los archivos auth-google.svg, auth-github.svg y auth-apple.svg corresponden a los iconos vectoriales visibles en los botones de esa página, extraídos del DOM el 4/11/2026. Se utilizan como máscaras monocromas en los controles equivalentes de la reproducción local. No incorporan conexión a los proveedores.
+
+La marca visible es el archivo existente anonimizar-icon.svg. El panel derecho reutiliza el recurso local lovable-pulse.html; su procedencia se conserva en PROCEDENCIA-ENTRADA.md. No se han creado imágenes ráster para este cambio.
+
+Captura y medidas de referencia: calidad/visuals/lovable-signup.png y evidencia del cambio en calidad/visuals/visuals-28-auth, relativas a la raíz del proyecto.

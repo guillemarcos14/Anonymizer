@@ -1,0 +1,315 @@
+{
+  "prepared_utc": "2026-11-02T17:58:39.013524+00:00",
+  "license_full_copy": "avisos/fuentes/MPL-2.0.html",
+  "components": [
+    {
+      "component": "certifi",
+      "version": "2026.10.23",
+      "source_archive": "avisos/fuentes/certifi-2026.10.23.tar.gz",
+      "source_archive_sha256": "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd",
+      "official_url": "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz",
+      "original_download_utc": "2026-11-02T15:53:34.096999+00:00",
+      "unchanged": true,
+      "readable_wheel_source_files": [
+        {
+          "path": "avisos/fuentes/archivos-wheel/certifi/__init__.py",
+          "member": "certifi/__init__.py",
+          "sha256": "6c069810be5831ee48e99eb0fbd79c06b51803771f48d7ccd28f9c0c32270e86"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/certifi/__main__.py",
+          "member": "certifi/__main__.py",
+          "sha256": "c410688fdd394d45812d118034e71fee88ba7beddd30fe1c1281bd3b232cd758"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/certifi/cacert.pem",
+          "member": "certifi/cacert.pem",
+          "sha256": "2ef52ad56b4803e264045c915e55c236cbfa045b84b81efefc218a19eb44bd2b"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/certifi/core.py",
+          "member": "certifi/core.py",
+          "sha256": "5c55f2727746e697f7edac9e17c377d8752e0da7ecca191531b3b80403d61dad"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/certifi/tests/__init__.py",
+          "member": "certifi/tests/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/certifi/tests/test_certify.py",
+          "member": "certifi/tests/test_certify.py",
+          "sha256": "7c179d1edf37f7e912b133663735fb46c6338d5d0e5f8915d11c3bc287d227b8"
+        }
+      ],
+      "conditions": "MPL/MIT/BSD según archivo; conservar avisos y no restringir derechos de fuentesMPL. No se ha modificado el paquete."
+    },
+    {
+      "component": "tqdm",
+      "version": "4.70.1",
+      "source_archive": "avisos/fuentes/tqdm-4.70.1.tar.gz",
+      "source_archive_sha256": "cefd0eca11b2a37a3aee776544d4f4ae913f02688135b5556b8788dfa474afc4",
+      "official_url": "https://files.pythonhosted.org/packages/0d/ea/b2a5bd54b28a324dae8211928b2d730b6547500342c7e6c6dea08bd0a485/tqdm-4.70.1.tar.gz",
+      "original_download_utc": "2026-11-02T15:53:58.500834+00:00",
+      "unchanged": true,
+      "readable_wheel_source_files": [
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/__init__.py",
+          "member": "tqdm/__init__.py",
+          "sha256": "f6640d6124aa3fdf496acb9b102d4f3892cc9a1924047e9c259c4f211e46da94"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/__main__.py",
+          "member": "tqdm/__main__.py",
+          "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/_main.py",
+          "member": "tqdm/_main.py",
+          "sha256": "f724af8268bfd92c38080a395035b44367717d3af26e8116187a217c2273d2c0"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/_monitor.py",
+          "member": "tqdm/_monitor.py",
+          "sha256": "d5571abeea2d61237a2bed636e936ecba1d8b6bde6c28e4d87f8d9310fa38370"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/_tqdm.py",
+          "member": "tqdm/_tqdm.py",
+          "sha256": "2df2c2b89e9ba6c568f718a59ad057c849b5bc69d4085ae5896f398f727e9c3e"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/_tqdm_gui.py",
+          "member": "tqdm/_tqdm_gui.py",
+          "sha256": "d371dcf0a6b2c49bde89e239fb4fb6346883a4bbf0f6365e9287c9515ec20b09"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/_tqdm_notebook.py",
+          "member": "tqdm/_tqdm_notebook.py",
+          "sha256": "06e1e22eec6eeae11f64568f256dd13e93dac5a55cb44400de47522520cbd61c"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/_tqdm_pandas.py",
+          "member": "tqdm/_tqdm_pandas.py",
+          "sha256": "73d8e9b5482280de9ac510e145de1189ff7c4e6c5ea297359c5345848a5b1541"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/_utils.py",
+          "member": "tqdm/_utils.py",
+          "sha256": "09f2f3b71158f9046235fc500aa01bd8df04d77b9ab8833de5149088595a12e1"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/asyncio.py",
+          "member": "tqdm/asyncio.py",
+          "sha256": "229706a3a645c1ce8a287623e6cee1e246918a881c69b27a3dca878fa8ddcb42"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/auto.py",
+          "member": "tqdm/auto.py",
+          "sha256": "9c365f963ea9db32a48c108d068babae14bcd7361f672d7f750bdb724add5bca"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/autonotebook.py",
+          "member": "tqdm/autonotebook.py",
+          "sha256": "da9360182243b1eb0d372627992bdef013502e2192828f7b4ac3e83170ab3514"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/cli.py",
+          "member": "tqdm/cli.py",
+          "sha256": "b758ff3ea2344ae3328491a807130f09763e5136df8dc89a010631014fdffd5d"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/dask.py",
+          "member": "tqdm/dask.py",
+          "sha256": "f448b9f1e56a4e8b2c44b8407d6c9414276e5d82a398b9b091a5c8cbe08761fb"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/gui.py",
+          "member": "tqdm/gui.py",
+          "sha256": "99a43b8e007995e587c313256c1bf4f21a5ee65cadbe61f4844011bb6d8645d5"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/keras.py",
+          "member": "tqdm/keras.py",
+          "sha256": "ba077cd3ec42c4caa7adbc7f0c43a99a3e9cd92875c6856d43c57df9bc36f5ea"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/notebook.py",
+          "member": "tqdm/notebook.py",
+          "sha256": "eb19144dc611b05c4de3f052518619e75900808ef27274f41cba4ff47ba412a8"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/rich.py",
+          "member": "tqdm/rich.py",
+          "sha256": "274e32abacb652bf74d76cc2ecf91ccc0d6dedc0e37adf3c866064ac0bfeb36b"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/std.py",
+          "member": "tqdm/std.py",
+          "sha256": "dd76d965de52c590819dec376644220cb35dc4831e40efb4c30944884fc57d86"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/tk.py",
+          "member": "tqdm/tk.py",
+          "sha256": "dd5b01d4c0c090222d696bbb0a631bd82a132cc8aa98388480d8b7ca2a90e466"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/utils.py",
+          "member": "tqdm/utils.py",
+          "sha256": "a3f7f4577d87ff0ae7d179919e8de3f6927dc65a79c4bd1f1d3de0b6a2fe939f"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/version.py",
+          "member": "tqdm/version.py",
+          "sha256": "d2e1f84cb7bc23c1fbd71dbd7659ad11904e6cb4f76f9216fa7cad177574215c"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/__init__.py",
+          "member": "tqdm/contrib/__init__.py",
+          "sha256": "d46318604f3ae960af94783931d9b33af3ec423e19b8c957cf3f317117090fad"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/bells.py",
+          "member": "tqdm/contrib/bells.py",
+          "sha256": "21ac42d985b9ef11c38a7c5d503407bd27a0a341d24dd0d313141010dbd207f9"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/concurrent.py",
+          "member": "tqdm/contrib/concurrent.py",
+          "sha256": "0a9c6bc1c29a4111fb9f04cf1b799562e95e1acfeed0c3615b8853b9a6e9618b"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/discord.py",
+          "member": "tqdm/contrib/discord.py",
+          "sha256": "2cf8f10db99f898b70dce026fd686dc1b5fd05560394f73c949f7a698dd86431"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/itertools.py",
+          "member": "tqdm/contrib/itertools.py",
+          "sha256": "300f7e26f6f74e8b1ea69227bdebf6885e1ba2437b190cb84382e08d4c98740e"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/logging.py",
+          "member": "tqdm/contrib/logging.py",
+          "sha256": "d27167d82eea51488a3c1d7da931ae4bd2df8daf1a8855b4bbd9326d1746d215"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/slack.py",
+          "member": "tqdm/contrib/slack.py",
+          "sha256": "b02d7cdafef10647c67ed9c379499000b30e7f043353766235fd50fd70350e32"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/telegram.py",
+          "member": "tqdm/contrib/telegram.py",
+          "sha256": "c9b4eb6868d4431e66e38dd3b17ea927b531ae9b21d66e1ae3705359597fe1ee"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/tqdm/contrib/utils_worker.py",
+          "member": "tqdm/contrib/utils_worker.py",
+          "sha256": "bdac722726a06303824172d431df3a6c26c8e2c3ea672b2e3066c34869af116a"
+        }
+      ],
+      "conditions": "MPL/MIT/BSD según archivo; conservar avisos y no restringir derechos de fuentesMPL. No se ha modificado el paquete."
+    },
+    {
+      "component": "setuptools",
+      "version": "84.2.1",
+      "source_archive": "avisos/fuentes/setuptools-84.2.1.tar.gz",
+      "source_archive_sha256": "3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc",
+      "official_url": "https://files.pythonhosted.org/packages/70/b3/c19426f783614d625699a4b247faf628ea9ab1db228674491767b417f9e1/setuptools-84.2.1.tar.gz",
+      "original_download_utc": "2026-11-02T15:53:56.746869+00:00",
+      "unchanged": true,
+      "readable_wheel_source_files": [
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/NOTICE",
+          "member": "setuptools/config/NOTICE",
+          "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/__init__.py",
+          "member": "setuptools/config/__init__.py",
+          "sha256": "06039aa049e81bd0f7c3947993f1c64046a4acf76afa17e2e292f92a2e4c52f5"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/_apply_pyprojecttoml.py",
+          "member": "setuptools/config/_apply_pyprojecttoml.py",
+          "sha256": "b1c202bd93feef9f4fe44033b546d16f2f1321bca69f2d95df74580e202989c7"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/distutils.schema.json",
+          "member": "setuptools/config/distutils.schema.json",
+          "sha256": "4dca77da44678703911b0ffda7a1848b4f258f6875e6d411cce6016f31a67015"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/expand.py",
+          "member": "setuptools/config/expand.py",
+          "sha256": "aff32ac039c0964dc66aa023d77cb4a58a82e4cf444c583fcb831a0423b6c78b"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/pyprojecttoml.py",
+          "member": "setuptools/config/pyprojecttoml.py",
+          "sha256": "c1522359cb685139f140d9ce8c5995aa59290d3596c52c757a6529638d2726a2"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/setupcfg.py",
+          "member": "setuptools/config/setupcfg.py",
+          "sha256": "292dfbd8024c3a7ab8b2be2157fa6e468883eeac0481a0faec06dc4d3e6e743d"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/setuptools.schema.json",
+          "member": "setuptools/config/setuptools.schema.json",
+          "sha256": "069ead4f046f4b2f7afdd09de4ea8a4e27ee21c4d639de700c6442af0601ce34"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/_validate_pyproject/NOTICE",
+          "member": "setuptools/config/_validate_pyproject/NOTICE",
+          "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/_validate_pyproject/__init__.py",
+          "member": "setuptools/config/_validate_pyproject/__init__.py",
+          "sha256": "767a7a4fb78f3f5479cf83ae0bb15dd9d905948aed21f8b351fbe91893fa9f3d"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/_validate_pyproject/error_reporting.py",
+          "member": "setuptools/config/_validate_pyproject/error_reporting.py",
+          "sha256": "e6319b720ef3402122100f1f02295291a5e711f5f20fb7eae421be3a49856669"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/_validate_pyproject/extra_validations.py",
+          "member": "setuptools/config/_validate_pyproject/extra_validations.py",
+          "sha256": "9509eee7001204bf220d3a0e0e9c39b17db591ebf4d7f3e35081a576ed69ae86"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/_validate_pyproject/fastjsonschema_exceptions.py",
+          "member": "setuptools/config/_validate_pyproject/fastjsonschema_exceptions.py",
+          "sha256": "c3be3d260a8a8bc72504570e6dd71b655aac985e2827f401ca16754866d414dc"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/_validate_pyproject/fastjsonschema_validations.py",
+          "member": "setuptools/config/_validate_pyproject/fastjsonschema_validations.py",
+          "sha256": "5e3321f6cf5ecc4cea33dca86782a8510ee30a81c0aac465f8a49fdf4465831a"
+        },
+        {
+          "path": "avisos/fuentes/archivos-wheel/setuptools/config/_validate_pyproject/formats.py",
+          "member": "setuptools/config/_validate_pyproject/formats.py",
+          "sha256": "2cd45a8e57ae66dc8ff015a131c6ee03dd803e9a5d888b6912911ea828c0e784"
+        }
+      ],
+      "conditions": "MPL/MIT/BSD según archivo; conservar avisos y no restringir derechos de fuentesMPL. No se ha modificado el paquete."
+    },
+    {
+      "component": "PublicSuffixList incluida en tldextract5.4.0",
+      "version_in_source": "2025-04-07_15-51-09_UTC",
+      "commit_in_source": "5fc8d12c1624ddbc56a80e944aca151a8ee466a1",
+      "source_file": "avisos/fuentes/public-suffix-list.tld_set_snapshot",
+      "sha256": "b69315c085d53972724b8f2df111ffc329b0c84fe0a47d62c8c91655cc774a38",
+      "wheel_member": "tldextract/.tld_set_snapshot",
+      "license": "MPL2.0 declarada en la cabecera original preservada",
+      "official_origin": "https://publicsuffix.org/list/public_suffix_list.dat",
+      "unchanged": true,
+      "note": "Texto de datos legible incluido completo; no hace falta obtenerlo de Internet para usar la copia de fallback."
+    }
+  ],
+  "source_access": "Copias locales dentro de este kit, sin necesidad de rutas externas. Se permiten los derechos de sus licencias sin restricciones adicionales."
+}

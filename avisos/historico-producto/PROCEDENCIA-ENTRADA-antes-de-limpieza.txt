@@ -1,0 +1,29 @@
+# Procedencia de los recursos de la entrada
+
+Referencia indicada expresamente por Guillem el 3/11/2026: https://lovable.dev/es/home.
+
+- `assets/fonts/CameraPlainVariable.woff2`: descarga de https://lovable.dev/assets/CameraPlainVariable-c48bd243-BhPypTEq.woff2. Familia y peso confirmados mediante CSS y estilos computados de la referencia.
+- `assets/lovable-pulse.html`: fragmento SVG `data-artwork="pulse"` de la primera sección del DOM público de la referencia, con envoltorios locales para posicionamiento. Conserva cuatro grupos y sus degradados, máscaras y geometría.
+- `anonimizar.css`: integración local para Streamlit basada en las medidas y las reglas de animación de la referencia; textos adaptados a Anonimizar.
+
+Los recursos anteriores no se presentan como originales de Anonimizar ni se les atribuye licencia MIT. Este registro documenta su origen; no acredita permisos adicionales de redistribución. Los avisos previos del producto permanecen en `avisos` y `LICENCIAS.md`.
+
+No se consultan recursos de Lovable durante el uso de la aplicación. El texto introducido se procesa mediante el flujo local existente.
+
+
+## Actualización del fondo — 3/11/2026
+
+Por petición posterior de Guillem, la geometría de corazón se sustituye por cuatro contornos ondulados independientes, con crestas descentradas y distintas alturas, solapados mediante bordes Gaussianos de 26–40 unidades SVG. Se mantienen la paleta, las cuatro capas, el encuadre inferior y los tiempos de entrada y deriva. La geometría vigente es una adaptación local; ya no se exige reproducir la silueta original de Lovable.
+
+
+Restauración vigente (3/11/2026): Guillem solicita recuperar exactamente el fondo original de Lovable. Se restaura íntegramente el SVG de referencia, sustituyendo las olas locales y anulando el desplazamiento del azul. Se conservan la posición anterior del contenido y el placeholder animado ya terminado. Esta decisión sustituye las modificaciones anteriores del fondo.
+
+
+## Referencia dashboard — 4/11/2026
+Por petición explícita de Guillem se midió la interfaz autenticada de https://lovable.dev/dashboard mediante su DOM renderizado. dashboard-artwork.html contiene el SVG visible del fondo oscuro; dashboard-icons.json y dashboard-mobile-icons.json contienen los iconos de navegación visibles de esa referencia. Su uso local responde a la comparación visual solicitada; esta anotación no atribuye licencia MIT ni permisos generales de distribución. No contienen documentos ni credenciales de la cuenta.
+
+## Apariencia — 5/11/2026
+
+Por petición expresa de Guillem se inspeccionó el selector de la sesión existente de Lovable en el navegador integrado. Se incorporan Pulse, Horizon y Ember a partir de sus capas SVG originales y sus miniaturas SVG, sin redibujar geometrías ni sustituir gradientes. Los marcos, proporciones, orígenes, máscaras y keyframes se recogen en calidad/appearance-0.2.2, incluidos encuadres móviles de 2400px (Pulse), 4000px (Horizon) y 1500px (Ember). Lovable usa además una capa canvas de optimización en Horizon y Ember; aquí se conservan sus capas vectoriales originales como render local. No se atribuyen derechos adicionales de redistribución a estos recursos.
+
+Los archivos appearance-*.html y appearance-thumb-*.svg y appearance.css se sirven embebidos localmente. No hay conexión a Lovable durante el uso. El ajuste se conserva en el archivo local de preferencias. Solo se añaden los tres fondos del panel; las opciones de tema claro/oscuro/sistema son independientes y no se añaden en esta modificación.
