@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Anonimizar
+# Local Text Anonymizer
 
 **Review your text before sharing it.**
 
