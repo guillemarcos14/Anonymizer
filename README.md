@@ -2,7 +2,7 @@
 
 Aplicación local para revisar y sustituir datos identificativos en texto en español mediante Presidio. El navegador muestra la interfaz y el motor escucha en `127.0.0.1`. No requiere cuenta. Límite provisional: 10.000 caracteres. Toda salida requiere revisión humana: puede contener omisiones y falsos positivos.
 
-**Estado: preparación local para GitHub, sin publicar.** Esta copia contiene la aplicación Windows. El complemento experimental de ChatGPT y la web pública quedan fuera. La licencia de las aportaciones propias, los permisos de algunos recursos visuales y la distribución del instalador siguen pendientes; ver [PREPARACION.md](PREPARACION.md).
+**Estado: código publicado en [GitHub](https://github.com/guillemarcos14/Anonimizar).** Esta copia contiene la aplicación Windows. El complemento experimental de ChatGPT y la web pública quedan fuera. La licencia de las aportaciones propias, los permisos de algunos recursos visuales y la distribución del instalador siguen pendientes; ver [PREPARACION.md](PREPARACION.md).
 
 ## Instalar para desarrollar
 

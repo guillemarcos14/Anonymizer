@@ -1,6 +1,6 @@
 # Estado de preparación — Anonimizar Windows 0.3.0
 
-Actualizado el 15/11/2026. Copia independiente para preparar GitHub, sin publicación, commits ni remoto. El complemento experimental de ChatGPT y la web pública permanecen fuera. El proyecto original no se ha modificado.
+Actualizado el 15/11/2026. Código publicado por autorización expresa de Guillem en [guillemarcos14/Anonimizar](https://github.com/guillemarcos14/Anonimizar). Esta copia está versionada y conectada a ese remoto público. El complemento experimental de ChatGPT y la web pública permanecen fuera. El proyecto original no se ha modificado.
 
 ## Comprobado localmente
 
@@ -44,3 +44,7 @@ Se incorpora un alcance común entre instalador y desinstalador, con marcador de
 El ciclo comprobado cubre cancelación, motor activo, unión de directorios, registro incoherente con resultado de fallo, retirada de programa/accesos/clave propia y reinstalación. Historial, papelera, ajustes y exportación conservan sus bytes; seis archivos y dos claves testigo permanecen intactos. Los accesos se han leído mediante COM y sus destinos/iconos, junto con los valores de la clave de prueba, son correctos. Los punteros y claves habituales no cambiaron.
 
 Las evidencias se conservan en `verificacion-local/desinstalador/ejecucion-*`. La prueba usa decisiones explícitas en lugar de pulsar los diálogos nativos. No acredita la inscripción habitual de Windows, un ordenador diferente ni una revisión general de seguridad frente a todos los cambios concurrentes o atacantes locales. Los archivos anteriores y el original permanecen preservados; no hay publicación ni licencia nueva.
+
+## Publicación del código — 15/11/2026
+
+Guillem ha elegido expresamente un repositorio público y visible en su perfil. Se publica el código revisado, conservando avisos y condiciones. Las referencias anteriores a no publicar describen las fases previas de preparación. Esta autorización no elige una licencia global ni resuelve automáticamente permisos de recursos visuales. Los datos, credenciales, entornos, evidencias locales e instaladores permanecen fuera del repositorio Git. El instalador probado sigue disponible localmente; no se ha creado una release de descarga.
