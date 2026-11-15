@@ -85,8 +85,8 @@ Los paquetes de `wheelhouse/`, el entorno, las evidencias y los ejecutables gene
 
 | Guía | Para qué sirve |
 |---|---|
-| [Uso de la aplicación](LOCAL.md) | Historial, privacidad, recuperación y cierre |
-| [Instalación desde el código](INSTALACION.md) | Dependencias públicas, hashes e instalación offline |
+| [Uso de la aplicación](LOCAL.md) · [English](USAGE.md) | Historial, privacidad, recuperación y cierre |
+| [Instalación desde el código](INSTALACION.md) · [English](INSTALLATION.md) | Dependencias públicas, hashes e instalación offline |
 | [Construcción y pruebas del instalador](INSTALADOR.md) | Empaquetado y ciclo de instalación/desinstalación aislado |
 | [Estado y pendientes](PREPARACION.md) | Qué está comprobado y qué falta validar |
 | [Atribuciones e historial](avisos/historico-producto/README.md) | Antecedentes conservados; los textos de terceros están en `avisos/` |

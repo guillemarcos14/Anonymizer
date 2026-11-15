@@ -51,7 +51,7 @@ To stop the engine, use **Configuración → Cerrar Anonimizar y detener el moto
 
 ## Privacy and limitations
 
-- **Local processing:** the engine runs on your computer. This is not a universal guarantee of no external connections; see [usage and privacy (Spanish)](LOCAL.md).
+- **Local processing:** the engine runs on your computer. This is not a universal guarantee of no external connections; see [usage and privacy](USAGE.md).
 - **History is enabled by default:** it stores the original, settings and review in `%LOCALAPPDATA%\Anonimizar`. You can disable it in Settings; doing so does not delete existing documents. There is no application-provided encryption of local history.
 - **Human review is required:** omissions, false positives and indirect identifying details may remain. Complete or irreversible anonymization is not guaranteed.
 - **Pre-release:** checked with fictional data on one Windows computer, including isolated installation, the model, history, uninstallation and reinstallation. Standard Windows integration, native dialogs and another computer still need validation.
@@ -83,12 +83,12 @@ The `wheelhouse/` packages, environment, local evidence and generated executable
 
 </details>
 
-The detailed technical guides below are currently in Spanish.
+Usage and installation guides are available in both languages. Installer build notes, validation records and attributions are currently in Spanish.
 
 | Guide | Contents |
 |---|---|
-| [Using the app](LOCAL.md) | History, privacy, recovery and shutdown |
-| [Installing from source](INSTALACION.md) | Public dependencies, hashes and offline installation |
+| [Using the app](USAGE.md) · [Español](LOCAL.md) | History, privacy, recovery and shutdown |
+| [Installing from source](INSTALLATION.md) · [Español](INSTALACION.md) | Public dependencies, hashes and offline installation |
 | [Installer build and tests](INSTALADOR.md) | Packaging and the isolated installation/uninstallation cycle |
 | [Status and remaining work](PREPARACION.md) | What has been checked and what still needs validation |
 | [Attributions and history](avisos/historico-producto/README.md) | Preserved background; third-party notices are in `avisos/` |

@@ -1,6 +1,10 @@
+[English](INSTALLATION.md) | **Español**
+
 # Instalación reproducible — Windows 0.3.0
 
 Este proceso obtiene las dependencias y el modelo desde fuentes públicas, sin usar la carpeta auxiliar, la instalación original, una caché de pip ni un entorno previo. No publica el producto ni cambia las 82 versiones de ejecución.
+
+Esta guía cubre la instalación desde el código. Para instalar la aplicación sin un entorno de desarrollo, utiliza el [instalador de Windows y los pasos de inicio](README.es.md#instalar-y-empezar). La interfaz y el procesamiento están orientados a textos en español.
 
 ## Requisitos
 

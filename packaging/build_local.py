@@ -60,7 +60,7 @@ def main():
             raise FileNotFoundError(f'Recurso requerido ausente: {path}')
         if '__pycache__' not in path.parts and path.suffix not in ('.pyc', '.pyo'):
             entries.append((path, str(archive).replace('\\', '/')))
-    for name in MODULES + ['anonimizar.css', 'product-ui.css', 'workspace.css', 'anonimizar-icon.svg', 'LOCAL.md', 'LICENCIAS.md', 'CONDICIONES-ENTREGA.md', 'README.md', 'README.es.md', 'PREPARACION.md', 'INSTALACION.md', 'INSTALADOR.md',
+    for name in MODULES + ['anonimizar.css', 'product-ui.css', 'workspace.css', 'anonimizar-icon.svg', 'LOCAL.md', 'LICENCIAS.md', 'CONDICIONES-ENTREGA.md', 'README.md', 'README.es.md', 'USAGE.md', 'INSTALLATION.md', 'PREPARACION.md', 'INSTALACION.md', 'INSTALADOR.md',
                            'dependencias-publicas.json', 'requirements-publicas-win-py313.lock',
                            'requirements-bootstrap.lock', 'requirements-directas.txt', 'requirements-win-py313.lock',
                            'wheelhouse-sha256.json', 'instalar.ps1', 'iniciar.ps1', 'descargar-dependencias.ps1']:
