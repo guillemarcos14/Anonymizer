@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Anonimizador de textos local
+# Anonimizador
 
 **Revisa tus textos antes de compartirlos.**
 
@@ -10,11 +10,11 @@ Una aplicación para Windows que ayuda a detectar y sustituir datos identificati
 
 **La interfaz de la aplicación y el procesamiento están orientados a textos en español.** La presentación del repositorio está disponible en inglés y en español.
 
-**[Descargar para Windows x64 →](https://github.com/guillemarcos14/local-text-anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)**
+**[Descargar para Windows x64 →](https://github.com/guillemarcos14/Anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)**
 
 Versión preliminar **0.3.0** · Incluye motor y modelo · Sin cuenta en la aplicación
 
-[Notas de la versión](https://github.com/guillemarcos14/local-text-anonymizer/releases/tag/v0.3.0) · [Comprobar SHA-256](https://github.com/guillemarcos14/local-text-anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256)
+[Notas de la versión](https://github.com/guillemarcos14/Anonymizer/releases/tag/v0.3.0) · [Comprobar SHA-256](https://github.com/guillemarcos14/Anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256)
 
 </div>
 
@@ -41,11 +41,11 @@ Versión preliminar **0.3.0** · Incluye motor y modelo · Sin cuenta en la apli
 
 **Requisitos:** Windows x64 y .NET Framework 4.6.2 o posterior. El instalador incluye Python, las dependencias y el modelo; no tienes que instalarlos por separado ni usar una terminal.
 
-1. **[Descarga el instalador de Windows](https://github.com/guillemarcos14/local-text-anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** y ejecútalo. Confirma la instalación para tu usuario.
+1. **[Descarga el instalador de Windows](https://github.com/guillemarcos14/Anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** y ejecútalo. Confirma la instalación para tu usuario.
 2. **Abre Anonimizar** desde el escritorio o Inicio. La interfaz se abre en el navegador y el motor se ejecuta en el ordenador.
 3. **Pega tu texto, envíalo y revisa el resultado.** Comprueba omisiones y sustituciones incorrectas antes de copiarlo o compartirlo. Límite provisional: **10.000 caracteres**.
 
-El instalador **no tiene firma de editor**; Windows puede mostrar una advertencia. Puedes comparar su hash con el [archivo SHA-256 de la release](https://github.com/guillemarcos14/local-text-anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256). El hash comprueba integridad, no sustituye una firma.
+El instalador **no tiene firma de editor**; Windows puede mostrar una advertencia. Puedes comparar su hash con el [archivo SHA-256 de la release](https://github.com/guillemarcos14/Anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256). El hash comprueba integridad, no sustituye una firma.
 
 Para detener el motor, utiliza **Configuración → Cerrar Anonimizar y detener el motor**. Cerrar solo la pestaña lo deja activo.
 

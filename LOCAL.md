@@ -2,7 +2,7 @@
 
 # Anonimizar local 0.3.0 — Windows x64
 
-Guía de uso de la versión preliminar 0.3.0, disponible en [GitHub Releases](https://github.com/guillemarcos14/local-text-anonymizer/releases/tag/v0.3.0). La interfaz y el procesamiento están orientados a textos en español. Para requisitos y el proceso completo de instalación desde el código, consultar [INSTALACION.md](INSTALACION.md).
+Guía de uso de la versión preliminar 0.3.0, disponible en [GitHub Releases](https://github.com/guillemarcos14/Anonymizer/releases/tag/v0.3.0). La interfaz y el procesamiento están orientados a textos en español. Para requisitos y el proceso completo de instalación desde el código, consultar [INSTALACION.md](INSTALACION.md).
 
 ## Abrir y cerrar
 

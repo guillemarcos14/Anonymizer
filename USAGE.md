@@ -2,7 +2,7 @@
 
 # Using Anonimizar 0.3.0 — Windows x64
 
-Usage guide for pre-release 0.3.0, available through [GitHub Releases](https://github.com/guillemarcos14/local-text-anonymizer/releases/tag/v0.3.0). The app interface and text-processing workflow are in Spanish. For requirements and the complete source-installation process, see [INSTALLATION.md](INSTALLATION.md).
+Usage guide for pre-release 0.3.0, available through [GitHub Releases](https://github.com/guillemarcos14/Anonymizer/releases/tag/v0.3.0). The app interface and text-processing workflow are in Spanish. For requirements and the complete source-installation process, see [INSTALLATION.md](INSTALLATION.md).
 
 ## Open and close the app
 
