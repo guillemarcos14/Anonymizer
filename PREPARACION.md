@@ -1,6 +1,6 @@
 # Estado de preparación — Anonimizar Windows 0.3.0
 
-Actualizado el 15/11/2026. Código publicado por autorización expresa de Guillem en [guillemarcos14/Anonimizar](https://github.com/guillemarcos14/Anonimizar). Esta copia está versionada y conectada a ese remoto público. El complemento experimental de ChatGPT y la web pública permanecen fuera. El proyecto original no se ha modificado.
+Actualizado el 15/11/2026. Código publicado por autorización expresa de Guillem en [guillemarcos14/local-text-anonymizer](https://github.com/guillemarcos14/local-text-anonymizer). Esta copia está versionada y conectada a ese remoto público. El complemento experimental de ChatGPT y la web pública permanecen fuera. El proyecto original no se ha modificado.
 
 ## Comprobado localmente
 
@@ -51,4 +51,4 @@ Guillem ha elegido expresamente un repositorio público y visible en su perfil. 
 
 ## Release Windows 0.3.0 — 15/11/2026
 
-Por autorización expresa de Guillem se publica el instalador ya probado, sin reconstruir ni alterar el ejecutable, junto con su SHA-256, en [v0.3.0](https://github.com/guillemarcos14/Anonimizar/releases/tag/v0.3.0). El README ofrece descarga directa e instrucciones para usuarios finales. La release se marca preliminar y conserva los límites de validación, la ausencia de firma de editor y los pendientes de permisos/licencia documentados. El original permanece intacto.
+Por autorización expresa de Guillem se publica el instalador ya probado, sin reconstruir ni alterar el ejecutable, junto con su SHA-256, en [v0.3.0](https://github.com/guillemarcos14/local-text-anonymizer/releases/tag/v0.3.0). El README ofrece descarga directa e instrucciones para usuarios finales. La release se marca preliminar y conserva los límites de validación, la ausencia de firma de editor y los pendientes de permisos/licencia documentados. El original permanece intacto.

@@ -10,11 +10,11 @@ A Windows app that helps detect and replace identifying information in **Spanish
 
 **The app interface and supported text workflow are in Spanish.** This English README introduces the project to an international audience.
 
-**[Download for Windows x64 →](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)**
+**[Download for Windows x64 →](https://github.com/guillemarcos14/local-text-anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)**
 
 Pre-release **0.3.0** · Engine and model included · No app account required
 
-[Release notes](https://github.com/guillemarcos14/Anonimizar/releases/tag/v0.3.0) · [Check SHA-256](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256)
+[Release notes](https://github.com/guillemarcos14/local-text-anonymizer/releases/tag/v0.3.0) · [Check SHA-256](https://github.com/guillemarcos14/local-text-anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256)
 
 </div>
 
@@ -41,11 +41,11 @@ Pre-release **0.3.0** · Engine and model included · No app account required
 
 **Requirements:** Windows x64 and .NET Framework 4.6.2 or later. The installer includes Python, dependencies and the model; you do not need to install them separately or use a terminal.
 
-1. **[Download the Windows installer](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** and run it. Confirm installation for your Windows user.
+1. **[Download the Windows installer](https://github.com/guillemarcos14/local-text-anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe)** and run it. Confirm installation for your Windows user.
 2. **Open Anonimizar** from the desktop or Start menu. The interface opens in your browser and the engine runs on your computer.
 3. **Paste Spanish text, submit it and review the result.** Check for omissions and incorrect substitutions before copying or sharing it. Provisional limit: **10,000 characters**.
 
-The installer **is not signed with a publisher certificate**; Windows may display a warning. You can compare its hash with the [release SHA-256 file](https://github.com/guillemarcos14/Anonimizar/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256). A checksum verifies integrity; it does not replace a publisher signature.
+The installer **is not signed with a publisher certificate**; Windows may display a warning. You can compare its hash with the [release SHA-256 file](https://github.com/guillemarcos14/local-text-anonymizer/releases/download/v0.3.0/Anonimizar-Setup-0.3.0-win-x64.exe.sha256). A checksum verifies integrity; it does not replace a publisher signature.
 
 To stop the engine, use **Configuración → Cerrar Anonimizar y detener el motor** in the Spanish interface. Closing the browser tab alone leaves it running.
 
