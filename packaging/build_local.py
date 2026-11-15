@@ -65,7 +65,7 @@ def main():
                            'requirements-bootstrap.lock', 'requirements-directas.txt', 'requirements-win-py313.lock',
                            'wheelhouse-sha256.json', 'instalar.ps1', 'iniciar.ps1', 'descargar-dependencias.ps1']:
         include(ROOT / name, Path('app') / name)
-    for folder in ('assets', 'config', 'avisos', '.streamlit', 'tools', 'tests', 'packaging'):
+    for folder in ('assets', 'config', 'avisos', '.streamlit', 'tools', 'tests', 'packaging', 'docs/images'):
         for path in (ROOT / folder).rglob('*'):
             if not path.is_file():
                 continue
